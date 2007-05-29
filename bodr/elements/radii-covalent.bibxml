@@ -1,0 +1,60 @@
+<bx:entry>
+  <bx:misc>
+    <bx:url>http://www.webelements.com/</bx:url>
+  </bx:misc>
+</bx:entry>
+<bx:entry>
+  <bx:article>
+    <bx:author>A. Bondi</bx:author>
+    <bx:journal>J. Phys. Chem.</bx:journal>
+    <bx:year>1964</bx:year>
+    <bx:volume>68</bx:volume>
+    <bx:pages>441</bx:pages>
+  </bx:article>
+</bx:entry>
+<bx:entry>
+  <bx:book>
+    <bx:author>R.T. Sanderson</bx:author>
+    <bx:title>Chemical Periodicity</bx:title>
+    <bx:year>1962</bx:year>
+    <bx:publisher>Reinhold</bx:publisher>
+    <bx:address>New York, USA</bx:address>
+  </bx:book>
+</bx:entry>
+<bx:entry>
+  <bx:book>
+    <bx:editor>L.E. Sutton</bx:editor>
+    <bx:title>Table of Interatomic Distances and Configuration in Molecules and Ions, Supplement 1956-1959, Special Publication No. 18</bx:title>
+    <bx:year>1965</bx:year>
+    <bx:publisher>Chemical Society</bx:publisher>
+    <bx:address>London, UK</bx:address>
+  </bx:book>
+</bx:entry>
+<bx:entry>
+  <bx:book>
+    <bx:author>J.E. Huheey, E.A. Keiter, and R.L. Keiter</bx:author>
+    <bx:title>Inorganic Chemistry: Principles of Structure and Reactivity</bx:title>
+    <bx:year>1993</bx:year>
+    <bx:edition>4th</bx:edition>
+    <bx:publisher>HarperCollins</bx:publisher>
+    <bx:address>New York, USA</bx:address>
+  </bx:book>
+</bx:entry>
+<bx:entry>
+  <bx:book>
+    <bx:author>W.W. Porterfield</bx:author>
+    <bx:title>Inorganic Chemistry: A Unified Approach</bx:title>
+    <bx:year>1984</bx:year>
+    <bx:publisher>Addison Wesley Publishing Co.</bx:publisher>
+    <bx:address>Reading Massachusetts, USA</bx:address>
+  </bx:book>
+</bx:entry>
+<bx:entry>
+  <bx:book>
+    <bx:author>A.M. James, M.P. Lord</bx:author>
+    <bx:title>Macmillan's Chemical and Physical Data</bx:title>
+    <bx:year>1992</bx:year>
+    <bx:publisher>Macmillan</bx:publisher>
+    <bx:address>London, UK</bx:address>
+  </bx:book>
+</bx:entry>

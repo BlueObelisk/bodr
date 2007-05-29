@@ -1,0 +1,255 @@
+<dictionary xmlns="http://www.xml-cml.org/schema"
+	id="blueobelisk-dictionary" title="BlueObelisk Dictionary">
+
+	<annotation>
+		<documentation>
+			<metadata name="cvs:date" content="$Date: 2005/10/21 16:40:02 $"/>
+                        <metadata name="dc:license" content="The MIT License" />
+		</documentation>
+		<appinfo>
+			<contributor id="elw">Egon Willighagen</contributor>
+			<contributor id="cn">Carsten Niehaus</contributor>
+		</appinfo>
+	</annotation>
+
+	<description>
+		This dictionary describes descriptors used in the BlueObelisk datarepository.
+	</description>
+
+	<entry id="atomicNumber" term="Atomic number of an element">
+		<annotation>
+			<documentation>
+				<metadata name="dc:contributor" content="elw"/>
+			</documentation>
+		</annotation>
+		<definition>
+			The number of the element. This is the number of protons of an atom.
+		</definition>
+	</entry>
+	<entry id="symbol" term="The IUPAC-symbol of an element">
+		<annotation>
+			<documentation>
+				<metadata name="dc:contributor" content="elw"/>
+			</documentation>
+		</annotation>
+		<definition>
+			The symbol of an element. Every chemical element has a IUPAC-approved 
+			symbol which consists of one, two or three letters.
+		</definition>
+	</entry>
+	<entry id="name" term="The name of an element">
+		<annotation>
+			<documentation>
+				<metadata name="dc:contributor" content="elw"/>
+			</documentation>
+		</annotation>
+		<definition>
+			Every chemical element has an IUPAC-approved name.
+		</definition>
+	</entry>
+	<entry id="mass" term="Atomic mass of an element">
+		<annotation>
+			<documentation>
+				<metadata name="dc:contributor" content="elw"/>
+			</documentation>
+		</annotation>
+		<definition>
+			IUPAC Official Masses
+		</definition>
+	</entry>
+	<entry id="exactMass" term="Exact atomic mass of an element">
+		<annotation>
+			<documentation>
+				<metadata name="dc:contributor" content="elw"/>
+			</documentation>
+		</annotation>
+		<definition>
+			exact masses of the most common isotopes for each element
+		</definition>
+	</entry>
+	<entry id="ionization" term="Ionization potential of an element">
+		<annotation>
+			<documentation>
+				<metadata name="dc:contributor" content="elw"/>
+			</documentation>
+		</annotation>
+		<definition>
+			Ionization potential
+		</definition>
+	</entry>
+	<entry id="electronAffinity" term="Electron affinity of an element">
+		<annotation>
+			<documentation>
+				<metadata name="dc:contributor" content="elw"/>
+			</documentation>
+		</annotation>
+		<definition>
+			Electron affinity of an element
+		</definition>
+	</entry>
+	<entry id="electronegativityPauling" term="Electronegativity after Pauling">
+		<annotation>
+			<documentation>
+				<metadata name="dc:contributor" content="elw"/>
+			</documentation>
+		</annotation>
+		<definition>
+			Electronegativity after Pauli. On this scale, the most electronegative chemical element (fluorine) is given an electronegativity value of 3.98; the least electronegative element (francium) has a value of 0.7, and the remaining elements have values in between. 
+		</definition>
+	</entry>
+	<entry id="electronicConfiguration" term="Electronic configuration">
+		<annotation>
+			<documentation>
+				<metadata name="dc:contributor" content="cn"/>
+			</documentation>
+		</annotation>
+		<definition>
+			For example: Xe 4f14 5d10 6s2 6p2. In this example, Xe stands for the electronic configuration of Xenon.
+		</definition>
+	</entry>
+	<entry id="acidicbehaviour" term="Acidic behaviour">
+		<annotation>
+			<documentation>
+				<metadata name="dc:contributor" content="cn"/>
+			</documentation>
+		</annotation>
+		<definition>
+			Acidic behaviour of the elements. 0 means acidic, 1 means basic, 2 means neutral and 3 means amphoteric
+		</definition>
+	</entry>
+	<entry id="group" term="The group in which the element is in">
+		<annotation>
+			<documentation>
+				<metadata name="dc:contributor" content="cn"/>
+			</documentation>
+		</annotation>
+		<definition>
+			For example, an '1' means the element is in the first group. Together with the block you can
+			find out if that means 1a or 1b.
+		</definition>
+	</entry>
+	<entry id="crystalstructure" term="Most common crystal structure.">
+		<annotation>
+			<documentation>
+				<metadata name="dc:contributor" content="cn"/>
+			</documentation>
+		</annotation>
+		<definition>
+			# hcp: hexagonal close packed
+			# fcc: face centered cubic
+			# bcc body centered cubic
+			# hdp: hexagonal close packed
+			# ccp: cubic close packed
+			# d  : diamond
+			# sc : simple cubic
+			# tet: tetragonal
+			# rh : rhombohedral
+			# or : orthorhombic
+			# mono: monoclinic
+		</definition>
+	</entry>
+	<entry id="period" term="Period of the element in the periodic table">
+		<annotation>
+			<documentation>
+				<metadata name="dc:contributor" content="cn"/>
+			</documentation>
+		</annotation>
+		<definition>
+			
+		</definition>
+	</entry>
+	<entry id="family" term="the family of the element in the periodic table">
+		<annotation>
+			<documentation>
+				<metadata name="dc:contributor" content="cn"/>
+			</documentation>
+		</annotation>
+		<definition>
+			# Alkali_Earth
+			# Alkaline_Earth
+			# Non-Metal
+			# Metalloids
+			# Transition
+			# Other_Metal
+			# Halogene (group 7)
+			# Noblegas (group 8)
+			# Rare_Earth (the so called f-Block)
+		</definition>
+	</entry>
+	<entry id="periodTableBlock" term="Block of the element in the periodic table">
+		<annotation>
+			<documentation>
+				<metadata name="dc:contributor" content="cn"/>
+			</documentation>
+		</annotation>
+		<definition>
+			Each element has a location in the periodic table. The reason lays in the 
+			the orbital structure of the element. This creates four block in the table:
+			s,p,d and f, named after the orbit in which the last electron is located.
+		</definition>
+	</entry>
+	<entry id="boilingpoint" term="Boilingpoint of an element">
+		<annotation>
+			<documentation>
+				<metadata name="dc:contributor" content="cn"/>
+			</documentation>
+		</annotation>
+		<definition>
+			The boilingpoint of an element is the temperatur at 101.3hPa at which
+			the element is becomming vaporous.
+		</definition>
+	</entry>
+	<entry id="meltingpoint" term="Melting point of an element">
+		<annotation>
+			<documentation>
+				<metadata name="dc:contributor" content="cn"/>
+			</documentation>
+		</annotation>
+		<definition>
+			The meltingpoint of an element is the temperatur at 101.3hPa at which
+			the element is becomming liquid.
+		</definition>
+	</entry>
+	<entry id="nameOrigin" term="Origin of the name of an element">
+		<annotation>
+			<documentation>
+				<metadata name="dc:contributor" content="cn"/>
+			</documentation>
+		</annotation>
+		<definition>
+			The name of an element has a origin. Often the name comes from
+			old legends (see Cobalt) but sometime it is named after somebody (Einsteinium).
+		</definition>
+	</entry>
+	<entry id="radiusCovalent" term="Covalent radius an element">
+		<annotation>
+			<documentation>
+				<metadata name="dc:contributor" content="elw"/>
+			</documentation>
+		</annotation>
+		<definition>
+			The covalent radius for the element A is half the distance of the compound A-A.
+		</definition>
+	</entry>
+	<entry id="radiusVDW" term="van-der-Waals radius of an element">
+		<annotation>
+			<documentation>
+				<metadata name="dc:contributor" content="elw"/>
+			</documentation>
+		</annotation>
+		<definition>
+			The van-der-Waals-radius is <!-- good definition missing! -->
+		</definition>
+	</entry>
+	<entry id="elementColor" term="Color of an element">
+		<annotation>
+			<documentation>
+				<metadata name="dc:contributor" content="elw"/>
+			</documentation>
+		</annotation>
+		<definition>
+			Conventional color for structure visualization
+		</definition>
+	</entry>
+
+</dictionary>

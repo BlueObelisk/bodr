@@ -1,0 +1,960 @@
+ <unitList
+      id="siUnits"
+      namespace="http://www.xml-cml.org/units/siUnits"
+      title="si units dictionary"
+      siNamespace="http://www.xml-cml.org/units/siUnits"
+      xmlns="http://www.xml-cml.org/schema"
+      xsi:schemaLocation="http://www.xml-cml.org/schema ../../schema.xsd"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:h="http://www.w3.org/1999/xhtml"
+      xmlns:dc="http://www.xml-cml.org/dict/dcDict"
+      xmlns:siUnits="http://www.xml-cml.org/units/siUnits"
+      xmlns:unitType="http://www.xml-cml.org/units/unitTypes"
+    >
+    <metadata name="dc:source" content="Wikipedia" />
+
+    <unit
+    title="second"
+    id="s"
+    symbol="s"
+    parentSI="siUnits:s"
+    multiplierToSI="1.0" 
+    unitType="unitType:time">
+    <metadata name="dc:source" content="Wikipedia" />
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="metre"
+    id="m"
+    symbol="m"
+    parentSI="siUnits:m"
+    multiplierToSI="1.0" 
+    unitType="unitType:length">
+    <metadata name="dc:source" content="Wikipedia" />
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="ampere"
+    id="a"
+    symbol="A"
+    parentSI="siUnits:a"
+    multiplierToSI="1.0" 
+    unitType="unitType:current">
+    <metadata name="dc:source" content="Wikipedia" />
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="second"
+    id="s"
+    symbol="s"
+    parentSI="siUnits:s"
+    multiplierToSI="1.0" 
+    unitType="unitType:time">
+    <metadata name="dc:source" content="Wikipedia" />
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="kilogram"
+    id="kg"
+    symbol="kg"
+    parentSI="siUnits:kg"
+    multiplierToSI="1.0" 
+    unitType="unitType:mass">
+    <metadata name="dc:source" content="Wikipedia" />
+    <definition>
+ The SI base unit of mass, defined as being equal to the mass of the international 
+ prototype of the kilogram.</definition>
+    <description>
+
+ It is the only SI base unit that employs a prefix, and the only SI unit that 
+ is still defined in relation to an artifact rather than to a fundamental physical property.
+</description>
+    </unit>
+    
+    <unit
+    title="kelvin"
+    id="k"
+    symbol="K"
+    parentSI="siUnits:k"
+    multiplierToSI="1.0" 
+    unitType="unitType:temp">
+    <metadata name="dc:source" content="Wikipedia" />
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="mole"
+    id="mol"
+    symbol="mol"
+    parentSI="siUnits:mol"
+    multiplierToSI="1.0" 
+    unitType="unitType:amount">
+    <metadata name="dc:source" content="Wikipedia" />
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="candela"
+    id="cd"
+    symbol="cd"
+    parentSI="siUnits:cd"
+    multiplierToSI="1.0" 
+    unitType="unitType:luminous">
+    <metadata name="dc:source" content="Wikipedia" />
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit 
+    id="radian" 
+    name="radian" 
+    parentSI="siUnits:radian"
+    multiplierToSI="1.0" 
+    symbol="rad" 
+    unitType="unitType:angle">
+        <metadata name="dc:source" content="Wikipedia"/>
+        <description>fundamental unit of angle</description>
+      </unit>
+    
+    <unit
+    title="Hertz"
+    id="hz"
+    symbol="Hz"
+    parentSI="siUnits:hz"
+    multiplierToSI="1.0" 
+    unitType="unitType:frequency">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>s<h:sup>-1</h:sup></h:td>
+    <h:td>s<h:sup>-1</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="Newton"
+    id="newton"
+    symbol="N"
+    parentSI="siUnits:newton"
+    multiplierToSI="1.0" 
+    unitType="unitType:force">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>m.kg.s<h:sup>-2</h:sup></h:td>
+    <h:td>m.kg.s<h:sup>-2</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="Joule"
+    id="joule"
+    symbol="J"
+    parentSI="siUnits:joule"
+    multiplierToSI="1.0" 
+    unitType="unitType:energy">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>N.m</h:td>
+    <h:td>m<h:sup>2</h:sup>.kg.s<h:sup>-2</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="Watt"
+    id="watt"
+    symbol="W"
+    parentSI="siUnits:watt"
+    multiplierToSI="1.0" 
+    unitType="unitType:power">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>J/s</h:td>
+    <h:td>m<h:sup>2</h:sup>.kg.s<h:sup>-3</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="Pascal"
+    id="pascal"
+    symbol="Pa"
+    parentSI="siUnits:pascal"
+    multiplierToSI="1.0" 
+    unitType="unitType:pressure">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>N/m<h:sup>2</h:sup></h:td>
+    <h:td>m<h:sup>-1</h:sup>.kg.s<h:sup>-2</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="Lumen"
+    id="lumen"
+    symbol="lm"
+    parentSI="siUnits:lumen"
+    multiplierToSI="1.0" 
+    unitType="unitType:luminous_flux">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>cd.sr = m<h:sup>2</h:sup>.m<h:sup>-2</h:sup>.cd</h:td>
+    <h:td>cd</h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="Lux"
+    id="lux"
+    symbol="lx"
+    parentSI="siUnits:lux"
+    multiplierToSI="1.0" 
+    unitType="unitType:illuminance">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>lm/m<h:sup>2</h:sup> = m<h:sup>2</h:sup>.m<h:sup>-4</h:sup>.cd</h:td>
+    <h:td>m<h:sup>-2</h:sup>.cd</h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="Coulomb"
+    id="coulomb"
+    symbol="C"
+    parentSI="siUnits:coulomb"
+    multiplierToSI="1.0" 
+    unitType="unitType:electric_charge">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>s.A</h:td>
+    <h:td>s.A</h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="Volt"
+    id="volt"
+    symbol="V"
+    parentSI="siUnits:volt"
+    multiplierToSI="1.0" 
+    unitType="unitType:electromotive_force">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>W/A = J/C</h:td>
+    <h:td>m<h:sup>2</h:sup>.kg.s<h:sup>-3</h:sup>.A<h:sup>-1</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="Ohm"
+    id="ohm"
+    symbol="[Omega]"
+    parentSI="siUnits:ohm"
+    multiplierToSI="1.0" 
+    unitType="unitType:reactance">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>V/A</h:td>
+    <h:td>m<h:sup>2</h:sup>.kg.s<h:sup>-3</h:sup>.A<h:sup>-2</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="Farad"
+    id="farad"
+    symbol="F"
+    parentSI="siUnits:farad"
+    multiplierToSI="1.0" 
+    unitType="unitType:electric_capacitance">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>C/V</h:td>
+    <h:td>m<h:sup>-2</h:sup>.kg<h:sup>-1</h:sup>.s<h:sup>4</h:sup>.A<h:sup>2</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="Weber"
+    id="weber"
+    symbol="Wb"
+    parentSI="siUnits:weber"
+    multiplierToSI="1.0" 
+    unitType="unitType:magnetic_flux">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>m<h:sup>2</h:sup>.kg.s<h:sup>-2</h:sup>.A<h:sup>-1</h:sup></h:td>
+    <h:td>m<h:sup>2</h:sup>.kg.s<h:sup>-2</h:sup>.A<h:sup>-1</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="Tesla"
+    id="tesla"
+    symbol="T"
+    parentSI="siUnits:tesla"
+    multiplierToSI="1.0" 
+    unitType="unitType:magnetic_flux_density">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>V.s.m<h:sup>-2</h:sup> = Wb/m<h:sup>2</h:sup></h:td>
+    <h:td>kg.s<h:sup>-2</h:sup>.A<h:sup>-1</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="Henry (inductance)"
+    id="henry"
+    symbol="H"
+    parentSI="siUnits:henry"
+    multiplierToSI="1.0" 
+    unitType="unitType:inductance">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>V.s.A<h:sup>-1</h:sup> = Wb/A</h:td>
+    <h:td>m<h:sup>2</h:sup>.kg.s<h:sup>-2</h:sup>.A<h:sup>-2</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="Siemens"
+    id="siemens"
+    symbol="S"
+    parentSI="siUnits:siemens"
+    multiplierToSI="1.0" 
+    unitType="unitType:electric_conductance">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>[Omega]<h:sup>-1</h:sup></h:td>
+    <h:td>m<h:sup>-2</h:sup>.kg<h:sup>-1</h:sup> s<h:sup>3</h:sup>.A<h:sup>2</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    
+    <unit
+    title="Becquerel"
+    id="becquerel"
+    symbol="Bq"
+    parentSI="siUnits:becquerel"
+    multiplierToSI="1.0" 
+    unitType="unitType:radioactivity">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>s<h:sup>-1</h:sup></h:td>
+    <h:td>s<h:sup>-1</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="Gray"
+    id="gray"
+    symbol="Gy"
+    parentSI="siUnits:gray"
+    multiplierToSI="1.0" 
+    unitType="unitType:absorbed_dose">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>J/kg</h:td>
+    <h:td>m<h:sup>2</h:sup>.s<h:sup>-2</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="Sievert"
+    id="sievert"
+    symbol="Sv"
+    parentSI="siUnits:sievert"
+    multiplierToSI="1.0" 
+    unitType="unitType:equivalent_dose">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>J/kg</h:td>
+    <h:td>m<h:sup>2</h:sup>.s<h:sup>-2</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="Katal"
+    id="katal"
+    symbol="kat"
+    parentSI="siUnits:katal"
+    multiplierToSI="1.0" 
+    unitType="unitType:catalytic_activity">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>mol/s</h:td>
+    <h:td>s<h:sup>-1</h:sup>.mol</h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="Molarity"
+    id="molarity"
+    symbol="_i_M__i_"
+    parentSI="siUnits:molarity"
+    multiplierToSI="1.0" 
+    unitType="unitType:molarity">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>mol/L</h:td>
+    <h:td>10<h:sup>3</h:sup>.m<h:sup>-3</h:sup>.mol</h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="Molality"
+    id="molality"
+    symbol="_i_m__i_"
+    parentSI="siUnits:molality"
+    multiplierToSI="1.0" 
+    unitType="unitType:molality">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>mol/kg</h:td>
+    <h:td>kg<h:sup>-1</h:sup>.mol</h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="Square metre"
+    id="m2"
+    symbol="m2"
+    parentSI="siUnits:m2"
+    multiplierToSI="1.0" 
+    unitType="unitType:area">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>m<h:sup>2</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="Cubic metre"
+    id="m3"
+    symbol="m3"
+    parentSI="siUnits:m3"
+    multiplierToSI="1.0" 
+    unitType="unitType:volume">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>m<h:sup>3</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="Metre per second"
+    id="m.s-1"
+    symbol="m.s-1"
+    parentSI="siUnits:m.s-1"
+    multiplierToSI="1.0" 
+    unitType="unitType:velocity">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>m.s<h:sup>-1</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="Metre per second squared"
+    id="m.s-2"
+    symbol="m.s-2"
+    parentSI="siUnits:m.s-2"
+    multiplierToSI="1.0" 
+    unitType="unitType:acceleration">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>m.s<h:sup>-2</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="radian per second"
+    id="rad.s-1"
+    symbol="rad.s-1"
+    parentSI="siUnits:rad.s-1"
+    multiplierToSI="1.0" 
+    unitType="unitType:angular_velocity">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>s<h:sup>-1</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="newton second"
+    id="n.s"
+    symbol="N.s"
+    parentSI="siUnits:n.s"
+    multiplierToSI="1.0" 
+    unitType="unitType:momentum">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>kg.m.s<h:sup>-1</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="newton metre second"
+    id="n.m.s"
+    symbol="N.m.s"
+    parentSI="siUnits:n.m.s"
+    multiplierToSI="1.0" 
+    unitType="unitType:angular_momentum">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>kg.m<h:sup>2</h:sup>.s<h:sup>-1</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="newton metre"
+    id="n.m"
+    symbol="N.m"
+    parentSI="siUnits:n.m"
+    multiplierToSI="1.0" 
+    unitType="unitType:torque">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>kg.m<h:sup>2</h:sup>.s<h:sup>-2</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="reciprocal metre"
+    id="m-1"
+    symbol="m-1"
+    parentSI="siUnits:m-1"
+    multiplierToSI="1.0" 
+    unitType="unitType:wavenumber">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>m<h:sup>-1</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    id="kg.m-3"
+    title="Kilogram per cubic metre"
+    symbol="kg.m-3"
+    parentSI="siUnits:kg.m-3"
+    multiplierToSI="1.0" 
+    unitType="unitType:mass_density">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>kg.m<h:sup>-3</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="cubic metre per kilogram"
+    id="kg-1.m3"
+    symbol="kg-1.m3"
+    parentSI="siUnits:kg-1.m3"
+    multiplierToSI="1.0" 
+    unitType="unitType:specific_volume">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>kg<h:sup>-1</h:sup>.m<h:sup>3</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="mole per cubic metre"
+    id="m-3.mol"
+    symbol="m-3.mol"
+    parentSI="siUnits:m-3.mol"
+    multiplierToSI="1.0" 
+    unitType="unitType:amount_concentration">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>m<h:sup>-3</h:sup>.mol</h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="cubic metre per mole"
+    id="m3.mol-1"
+    symbol="m3.mol-1"
+    parentSI="siUnits:m3.mol-1"
+    multiplierToSI="1.0" 
+    unitType="unitType:molar_volume">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>m<h:sup>3</h:sup>.mol<h:sup>-1</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="joule per kelvin"
+    id="j.k-1"
+    symbol="J.K-1"
+    parentSI="siUnits:j.k-1"
+    multiplierToSI="1.0" 
+    unitType="unitType:heat_capacity">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>kg.m<h:sup>2</h:sup>.s<h:sup>-2</h:sup>.K<h:sup>-1</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="joule per kelvin mole"
+    id="j.k-1.mol-1"
+    symbol="J.K-1.mol-1"
+    parentSI="siUnits:j.k-1.mol-1"
+    multiplierToSI="1.0" 
+    unitType="unitType:molar_heat_capacity">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>kg.m<h:sup>2</h:sup>.s<h:sup>-2</h:sup>.K<h:sup>-1</h:sup>.mol<h:sup>-1</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="joule per kilogram kelvin"
+    id="j.k-1.kg-1"
+    symbol="J.K-1.kg-1"
+    parentSI="siUnits:j.k-1.kg-1"
+    multiplierToSI="1.0" 
+    unitType="unitType:specific_heat_capacity">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>m<h:sup>2</h:sup>.s<h:sup>-2</h:sup>.K<h:sup>-1</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="joule per mole"
+    id="j.mol-1"
+    symbol="J.mol-1"
+    parentSI="siUnits:j.mol-1"
+    multiplierToSI="1.0" 
+    unitType="unitType:molar_energy">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>kg.m<h:sup>2</h:sup>.s<h:sup>-2</h:sup>.mol<h:sup>-1</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="joule per kilogram"
+    id="j.kg-1"
+    symbol="J.kg-1"
+    parentSI="siUnits:j.kg-1"
+    multiplierToSI="1.0" 
+    unitType="unitType:specific_energy">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>m<h:sup>2</h:sup>.s<h:sup>-2</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="joule per cubic metre"
+    id="j.m-3"
+    symbol="J.m-3"
+    parentSI="siUnits:j.m-3"
+    multiplierToSI="1.0" 
+    unitType="unitType:energy_density">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>kg.m<h:sup>-1</h:sup>.s<h:sup>-2</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="newton per metre"
+    id="n.m-1"
+    symbol="N.m-1 = J.m-2"
+    parentSI="siUnits:n.m-1"
+    multiplierToSI="1.0" 
+    unitType="unitType:surface_tension">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>kg.s<h:sup>-2</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="watt per square metre"
+    id="w.m-2"
+    symbol="W.m-2"
+    parentSI="siUnits:w.m-2"
+    multiplierToSI="1.0" 
+    unitType="unitType:heat_flux_density">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>kg.s<h:sup>-3</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="watt per metre kelvin"
+    id="w.m-1.k-1"
+    symbol="W.m-1.K-1"
+    parentSI="siUnits:w.m-1.k-1"
+    multiplierToSI="1.0" 
+    unitType="unitType:thermal_conductivity">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>kg.m.s<h:sup>-3</h:sup>.K<h:sup>-1</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="square metre per second"
+    id="m2.s-1"
+    symbol="m2.s-1"
+    parentSI="siUnits:m2.s-1"
+    multiplierToSI="1.0" 
+    unitType="unitType:kinematic_viscosity">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>m<h:sup>2</h:sup>.s<h:sup>-1</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    id="pa.s"
+    title="Pascal second"
+    symbol="Pa.s = N.s.m-2"
+    parentSI="siUnits:pa.s"
+    multiplierToSI="1.0" 
+    unitType="unitType:dynamic_viscosity">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>kg.m<h:sup>-1</h:sup>.s<h:sup>-1</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="coulomb per cubic metre"
+    id="c.m-3"
+    symbol="C.m-3"
+    parentSI="siUnits:c.m-3"
+    multiplierToSI="1.0" 
+    unitType="unitType:electric_charge_density">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>m<h:sup>-3</h:sup>.s.A</h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="ampere per square metre"
+    id="a.m-2"
+    symbol="A.m-2"
+    parentSI="siUnits:a.m-2"
+    multiplierToSI="1.0" 
+    unitType="unitType:electric_current_density">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>A.m<h:sup>-2</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="siemens per metre"
+    id="s.m-1"
+    symbol="S.m-1"
+    parentSI="siUnits:s.m-1"
+    multiplierToSI="1.0" 
+    unitType="unitType:electrical_conductivity">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>kg<h:sup>-1</h:sup>.m<h:sup>-3</h:sup>.s<h:sup>3</h:sup>.A<h:sup>2</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="siemens square metre per mole"
+    id="s.m2.mol-1"
+    symbol="S.m2.mol-1"
+    parentSI="siUnits:s.m2.mol-1"
+    multiplierToSI="1.0" 
+    unitType="unitType:molar_conductivity">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>kg<h:sup>-1</h:sup>.s<h:sup>3</h:sup>.mol<h:sup>-1</h:sup>.A<h:sup>2</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="farad per metre"
+    id="f.m-1"
+    symbol="F.m-1"
+    parentSI="siUnits:f.m-1"
+    multiplierToSI="1.0" 
+    unitType="unitType:permittivity">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>kg<h:sup>-1</h:sup>.m<h:sup>-3</h:sup>.s<h:sup>4</h:sup>.A<h:sup>2</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="henry per metre"
+    id="h.m-1"
+    symbol="H.m-1"
+    parentSI="siUnits:h.m-1"
+    multiplierToSI="1.0" 
+    unitType="unitType:permeability">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>kg.m.s<h:sup>-2</h:sup>.A<h:sup>-2</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="volt per metre"
+    id="v.m-1"
+    symbol="V.m-1"
+    parentSI="siUnits:v.m-1"
+    multiplierToSI="1.0" 
+    unitType="unitType:electric_field_strength">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>kg.m.s<h:sup>-3</h:sup>.A<h:sup>-1</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="ampere per metre"
+    id="a.m-1"
+    symbol="A.m-1"
+    parentSI="siUnits:a.m-1"
+    multiplierToSI="1.0" 
+    unitType="unitType:magnetic_field_strength">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>A.m<h:sup>-1</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="candela per square metre"
+    id="cd.m-2"
+    symbol="cd.m-2"
+    parentSI="siUnits:cd.m-2"
+    multiplierToSI="1.0" 
+    unitType="unitType:luminance">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>cd.m<h:sup>-2</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="coulomb per kilogram"
+    id="c.kg-1"
+    symbol="C.kg-1"
+    parentSI="siUnits:c.kg-1"
+    multiplierToSI="1.0" 
+    unitType="unitType:exposure">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>kg<h:sup>-1</h:sup>.s.A</h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+    
+    <unit
+    title="gray per second"
+    id="gy.s-1"
+    symbol="Gy.s-1"
+    parentSI="siUnits:gy.s-1"
+    multiplierToSI="1.0" 
+    unitType="unitType:absorbed_dose_rate">
+    <metadata name="dc:source" content="Wikipedia" />
+    <h:td>m<h:sup>2</h:sup>.s<h:sup>-3</h:sup></h:td>
+    <description>
+    not yet added
+    </description>
+    </unit>
+
+ <!-- locally derived units -->    
+    <unit
+    title="joule per metre"
+    id="j.m-1"
+    symbol="J.m-1"
+    parentSI="siUnits:j.m-1"
+    multiplierToSI="1.0" 
+    unitType="unitType:energy_length_gradient">
+    <metadata name="dc:author" content="petermr, adw, ojd" />
+    <definition>
+    Gradient of energy with respect to length.
+    </definition>
+    <description>
+    Although formally identical to force, many authors report energy gradients as
+    energy per unit length and this unitType preserves the dimensional representation.
+    </description>
+    </unit>
+    
+</unitList>

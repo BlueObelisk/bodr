@@ -1,0 +1,56 @@
+<schema xml:lang="en" version="0.2"
+  xmlns="http://purl.oclc.org/dsdl/schematron">
+
+  <!-- Copyright (c) 2006 Egon Willighagen -->
+
+  <title>Convention for CML format for the BODR element data file.</title>
+
+  <ns prefix='cml' uri='http://www.xml-cml.org/schema'/>
+
+  <!-- convention stuff -->
+
+  <pattern name="Convention specification"> 
+    <rule context="/*">
+      <assert test="@convention and @convention='bodr:elements'">The root element must specify @convention="bodr".</assert>
+    </rule>
+  </pattern>
+
+  <!-- hierarchy of elements -->
+
+  <pattern name="Element Hierarchy">
+    <rule context="/*"> 
+      <assert test="name()='list'">The root must be &lt;list>.</assert>
+    </rule>
+    <rule context="cml:list">
+      <assert test="count(cml:metadataList)=1">The document must contain a &lt;metadataList>.</assert>
+    </rule>
+  </pattern>
+
+  <!-- element attributes -->
+
+  <pattern name="Required attributes">
+    <rule context="cml:atom">
+      <assert test="@id">The &lt;atom> element must have an @id attribute.</assert>
+    </rule>
+  </pattern>
+
+  <!-- Metadata details -->
+
+  <pattern name="Required metadata details">
+    <rule context="cml:metadataList"> 
+      <assert test="cml:metadata[@name='dc:title']">The &lt;metadataList> element must the title of the document.</assert>
+      <assert test="cml:metadata[@name='dc:license']">The &lt;metadataList> element must specify the license of the document.</assert>
+      <assert test="count(cml:metadata[@name='dc:contributor']) > 1">The &lt;metadataList> element must at least specify one contributor.</assert>
+    </rule>
+  </pattern>
+
+  <!-- Basic element details -->
+
+  <pattern name="Basic atom details">
+    <rule context="cml:atom">
+      <assert test="cml:scalar[@dictRef='bo:atomicNumber']">The atomic number must be given for each entry.</assert>
+      <assert test="cml:label[@dictRef='bo:symbol']">The element symbol must be given for each entry.</assert>
+    </rule>
+  </pattern>
+
+</schema>

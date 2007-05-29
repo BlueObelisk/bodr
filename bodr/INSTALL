@@ -1,0 +1,40 @@
+To install the Blue Obelisk Data Repository from source:
+
+1) Get the required applcations:
+
+	- autoconf
+	- automake
+	- xsltproc
+	(- intltool, gettext : currently not necessary)
+
+2) Prepare the source directory:
+	
+	$ sh autogen.sh
+
+	OR by hand:
+	
+	$ aclocal
+	$ automake --gnu -a
+	$ autoconf
+
+3) Run 
+	
+	$ ./configure --help
+
+   to get a list of possible configure options (will be explained later in
+   README). Please note, that we try to detect paths automatically. If our
+   configure script cannot detect them on your system, please write us and
+   provide the correct paths for your system.
+
+4) Configure and compile:
+
+	$ ./configure [options-you-like-most-here]
+	$ make
+
+5) Install everything:
+
+	$ su
+	# make install
+
+($: means user-shell, #: means root-shell)
+

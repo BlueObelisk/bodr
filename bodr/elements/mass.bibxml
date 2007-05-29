@@ -1,0 +1,23 @@
+<bx:entry>
+  <bx:article>
+    <bx:authors>Wieser, M.E.</bx:authors>
+    <bx:journal>Pure Appl. Chem.</bx:journal>
+    <bx:year>2006</bx:year>
+    <bx:volume>78</bx:volume>
+    <bx:number>11</bx:number>
+    <bx:pages>2051-2006</bx:pages>
+  </bx:article>
+</bx:entry>
+<bx:entry>
+  <bx:article>
+    <bx:journal>Pure Appl. Chem.</bx:journal>
+    <bx:year>75</bx:year>
+    <bx:volume>76</bx:volume>
+    <bx:pages>1107-1122</bx:pages>
+  </bx:article>
+</bx:entry>
+<bx:entry>
+  <bx:misc>
+    <bx:url>http://www.chem.qmul.ac.uk/iupac/AtWt/index.html</bx:url>
+  </bx:misc>
+</bx:entry>

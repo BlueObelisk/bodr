@@ -1,0 +1,108 @@
+
+EXTRA_DIST = \
+	$(crystalstructures_SRCS) \
+	$(crystalstructures_BIBXML) \
+	$(elements_SRCS) \
+	$(elements_BIBXML) \
+	$(crystal_DATA) \
+	$(element_DATA)
+
+CLEANFILES = \
+	*_biblio.bxml \
+	*_biblio.html
+
+MAINTAINERCLEANFILES = \
+	Makefile.in
+
+XMLLINT_FLAGS_XSD = --noout --schema $(top_srcdir)/schemas/cml23.xsd
+XMLLINT_FLAGS_SCHEMATRON = --noout --schematron $(top_srcdir)/schemas/elements.schematron
+
+crystalstructures_SRCS = \
+	crystalstructures.txt
+
+crystalstructures_BIBXML = \
+	crystalstructures.bibxml
+
+elements_SRCS = \
+	acidicbehaviour.txt \
+	blocks.txt \
+	boilingpoint.txt \
+	colors.txt \
+	crystalstructures.txt \
+	dates.txt \
+	density.txt \
+	electron-affinity.txt \
+	electroneg-pauling.txt \
+	electronic-configuration.txt \
+	exact-masses.txt \
+	family.txt \
+	groups.txt \
+	ionization.txt \
+	mass.txt \
+	meltingpoint.txt \
+	nameorigin.txt \
+	names.txt \
+	periods.txt \
+	radii-covalent.txt \
+	radii-vdw.txt
+
+elements_BIBXML = \
+	boilingpoint.bibxml \
+	crystalstructures.bibxml \
+	dates.bibxml \
+	electron-affinity.bibxml \
+	electroneg-pauling.bibxml \
+	electronic-configuration.bibxml \
+	exact-masses.bibxml \
+	ionization.bibxml \
+	mass.bibxml \
+	meltingpoint.bibxml \
+	names.bibxml \
+	radii-covalent.bibxml \
+	radii-vdw.bibxml \
+	symbols.bibxml
+
+
+vpath %.pl  $(top_srcdir)/scripts
+vpath %.rb  $(top_srcdir)/scripts
+vpath %.xsl $(top_srcdir)/bibtexml-xslt
+
+
+crystaldir = ${pkgdatadir}
+crystal_DATA = crystalstructures.xml
+
+elementdir = ${pkgdatadir}
+element_DATA = elements.xml
+
+docsdir = ${datadir}/doc/${PACKAGE}/bibxml
+docs_DATA = elements_biblio.html crystalstructures_biblio.html
+
+
+crystalstructures.xml : crystalstructure.rb $(crystalstructures_SRCS)
+	$< > $@
+
+elements.xml : elements.pl $(elements_SRCS)
+	$< > $@
+
+crystalstructures_biblio.bxml : $(crystalstructures_BIBXML)
+	echo "<bx:file xmlns:bx='http://bibtexml.sf.net/'>" > $@
+	cat $^ >> $@
+	echo "</bx:file>" >> $@
+
+elements_biblio.bxml : $(elements_BIBXML)
+	echo "<bx:file xmlns:bx='http://bibtexml.sf.net/'>" > $@
+	cat $^ >> $@
+	echo "</bx:file>" >> $@
+
+%_biblio.html : html-harvard.xsl %_biblio.bxml
+	$(XSLTPROC) $(XSLTPROC_FLAGS) $^ > $@
+
+
+check-local:
+if HAVE_XMLLINT
+	$(XMLLINT) $(XMLLINT_FLAGS_XSD) $(srcdir)/$(crystal_DATA)
+	$(XMLLINT) $(XMLLINT_FLAGS_SCHEMATRON) $(srcdir)/$(element_DATA)
+else
+	$(warning "Cannot check the XML files because 'xmllint' is missing.")
+endif
+

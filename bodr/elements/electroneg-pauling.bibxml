@@ -1,0 +1,34 @@
+<bx:entry>
+  <bx:book>
+    <bx:author>L. Pauling</bx:author>
+    <bx:title>The Nature of the Chemical Bond</bx:title>
+    <bx:year>1960</bx:year>
+    <bx:edition>3rd</bx:edition>
+    <bx:publisher>Cornell Univ.</bx:publisher>
+    <bx:address>USA</bx:address>
+  </bx:book>
+</bx:entry>
+<bx:entry>
+  <bx:book>
+    <bx:author>J.E. Huheey, E.A. Keiter, and R.L. Keiter</bx:author>
+    <bx:title>Inorganic Chemistry: Principles of Structure and Reactivity</bx:title>
+    <bx:year>1993</bx:year>
+    <bx:edition>4th</bx:edition>
+    <bx:publisher>HarperCollins</bx:publisher>
+    <bx:address>New York, USA</bx:address>
+  </bx:book>
+</bx:entry>
+<bx:entry>
+  <bx:article>
+    <bx:author>A.L. Allred</bx:author>
+    <bx:journal>J. Inorg. Nucl. Chem.</bx:journal>
+    <bx:year>1961</bx:year>
+    <bx:volume>17</bx:volume>
+    <bx:pages>215</bx:pages>
+  </bx:article>
+</bx:entry>
+<bx:entry>
+  <bx:misc>
+    <bx:url>http://www.webelements.com/</bx:url>
+  </bx:misc>
+</bx:entry>

@@ -1,0 +1,20 @@
+<bx:entry>
+  <bx:misc>
+    <bx:author>W.C. Martin, A. Musgrove, S. Kotochigova, and J.E. Sansonetti</bx:author>
+    <bx:title>Ground Levels and Ionization Energies for the Neutral Atoms (version 1.3)</bx:title>
+    <bx:year>2003</bx:year>
+    <bx:url>http://physics.nist.gov/IonEnergy</bx:url>
+  </bx:misc>
+</bx:entry>
+<bx:entry>
+  <bx:misc>
+    <bx:year>2005</bx:year>
+    <bx:url>http://physics.nist.gov/IonEnergy</bx:url>
+  </bx:misc>
+</bx:entry>
+<bx:entry>
+  <bx:misc>
+    <bx:publisher>National Institute of Standards and Technology</bx:publisher>
+    <bx:address>Gaithersburg, MD.</bx:address>
+  </bx:misc>
+</bx:entry>

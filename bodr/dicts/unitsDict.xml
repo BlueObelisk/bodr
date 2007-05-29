@@ -1,0 +1,360 @@
+<unitList
+  id="simpleUnits"
+  namespace="http://www.xml-cml.org/units/units"
+  dictionaryPrefix="units"
+  title="Simple units dictionary"
+  xmlns:units="http://www.xml-cml.org/units/units"
+  siNamespace="http://www.xml-cml.org/units/siUnits"
+  xmlns:si="http://www.xml-cml.org/units/siUnits"
+  xmlns:unitType="http://www.xml-cml.org/units/unitTypes"
+  xmlns="http://www.xml-cml.org/schema"
+  xsi:schemaLocation="http://www.xml-cml.org/schema ../../schema.xsd"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+>
+  <unit
+      id="unknown"
+      title="Unknown"
+      parentSI="si:unknown"
+      symbol="unk"
+      unitType="unitType:unknown">
+    <description>unknown unit and unknown unitType
+    </description>
+  </unit>
+
+<!-- entries waiting for editing have dummy multipliers of -99 -->
+  <unit
+      id="ang"
+      title="Angstrom" 
+      parentSI="si:m"
+      multiplierToSI="1.0E-10" 
+      symbol="A" 
+      unitType="unitType:length">
+    <description>derived length unit
+    </description>
+  </unit>
+
+  <unit
+      id="ang-1"
+      title="Angstrom-1"
+      parentSI="si:m-1"
+      multiplierToSI="1.0E10"
+      symbol="A-1"
+      unitType="unitType:length-1">
+    <description>derived inverse length</description>
+  </unit>
+
+  <unit
+      id="deg"
+      title="degree"
+      parentSI="si:radian"
+      multiplierToSI="0.01745329"
+      symbol="[deg]"
+      unitType="unitType:angle">
+    <description>common angle</description>
+  </unit>
+
+  <unit
+      id="atmass"
+      title="Atomic mass unit"
+      parentSI="si:kg"
+      multiplierToSI="1.6605402E-27"
+      symbol="amu"
+      unitType="unitType:mass">
+    <description>
+    </description>
+  </unit>
+
+  <unit
+      id="ang3"
+      title="Angstrom cubed"
+      parentSI="si:m3"
+      multiplierToSI="1.0E-30"
+      symbol="A3"
+      unitType="unitType:volume">
+    <description>
+    </description>
+  </unit>
+
+  <unit
+      id="arb"
+      title="Arbitrary"
+      parentSI="si:arb"
+      multiplierToSI="-99"
+      symbol="arb"
+      unitType="unitType:arbitrary">
+    <description>
+    </description>
+  </unit>
+
+<!--
+  <unit
+      id="c.dyne-1"
+      title="coulomb per dyne"
+      parentSI="si:c.newton-1"
+      multiplierToSI="1E+5"
+      symbol="c.dyn-1"
+      unitType="unitType:">
+    <description>
+    </description>
+  </unit>
+-->  
+
+  <unit
+      id="celsius"
+      title="Celsius"
+      parentSI="si:k"
+      multiplierToSI="1" 
+      constantToSI="273.15"
+      symbol="C"
+      unitType="unitType:temp">
+    <description>
+    </description>
+  </unit>
+
+  <unit
+      id="cm"
+      title="centimeter"
+      parentSI="si:m"
+      multiplierToSI="1.0E-02"
+      symbol="cm"
+      unitType="unitType:length">
+    <description>
+    </description>
+  </unit>
+
+  <unit
+      id="cm2"
+      title="centimeter squared"
+      parentSI="si:m2"
+      multiplierToSI="1.0E-04"
+      symbol="cm2"
+      unitType="unitType:area">
+    <description>
+    </description>
+  </unit>
+
+  <unit
+      id="debye"
+      title="debye"
+      parentSI="si:c.m"
+      multiplierToSI="3.335641E-30"
+      symbol="D"
+      unitType="unitType:dipole">
+    <description>
+    CGS units for electric dipole
+    </description>
+  </unit>
+
+  <unit
+      id="electron"
+      title="electron charge"
+      parentSI="si:c"
+      multiplierToSI="1.60217733E-19"
+      symbol="e"
+      unitType="unitType:charge">
+    <description>
+    </description>
+  </unit>
+
+  <unit
+      id="ev"
+      title="electron volt"
+      parentSI="si:joule"
+      multiplierToSI="1.60217733E-19"
+      symbol="eV"
+      unitType="unitType:energy">
+    <description>
+    </description>
+  </unit>
+
+  <unit
+      id="hartree"
+      title="Hartree"
+      parentSI="si:joule"
+      multiplierToSI="4.3597482E-18"
+      symbol="hart"
+      unitType="unitType:energy">
+    <description>
+    </description>
+  </unit>
+
+  <unit
+      id="g"
+      title="gram"
+      parentSI="si:kg"
+      multiplierToSI="1.0E-03"
+      symbol="g"
+      unitType="unitType:mass">
+    <description>
+    </description>
+  </unit>
+
+  <unit
+      id="gpa"
+      title="gigaPascal"
+      parentSI="si:pa"
+      multiplierToSI="1.0E+09"
+      symbol="GPa"
+      unitType="unitType:pressure">
+    <description>
+    </description>
+  </unit>
+
+  <unit
+      id="kj.mol-1"
+      title="kj per mole"
+      parentSI="si:j.mol-1"
+      multiplierToSI="1000"
+      symbol="kj mol-1"
+      unitType="unitType:molar_energy">
+    <description>
+    </description>
+  </unit>
+
+
+  <unit
+      id="kcal.mol-1.ang-1"
+      title="kcal per mole per Angstrom"
+      parentSI="si:xx"
+      multiplierToSI="-99"
+      symbol="kcal mol-1 ang-1"
+      unitType="unitType:xx">
+    <description>
+    </description>
+  </unit>
+
+  <unit
+      id="l"
+      title="litre"
+      parentSI="si:m3"
+      multiplierToSI="1.0E-03"
+      symbol="L"
+      unitType="unitType:volume">
+    <description>
+    </description>
+  </unit>
+
+  <unit
+      id="ml"
+      title="millilitre"
+      parentSI="si:m3"
+      multiplierToSI="1.0E-06"
+      symbol="mL"
+      unitType="unitType:volume">
+    <description>
+    </description>
+  </unit>
+
+  <unit
+      id="nm"
+      title="nanometer"
+      parentSI="si:m"
+      multiplierToSI="1.0E-09"
+      symbol="nm"
+      unitType="unitType:length">
+    <description>
+    </description>
+  </unit>
+  
+  <unit
+      id="pm"
+      title="picometer"
+      parentSI="si:m"
+      multiplierToSI="1.0E-12"
+      symbol="cm"
+      unitType="unitType:length">
+    <description>
+    </description>
+  </unit>
+
+  <unit
+      id="ph"
+      title="pH units"
+      parentSI="si:dimensionless"
+      multiplierToSI="1"
+      symbol="pH"
+      unitType="unitType:dimensionless">
+    <description>
+    pH is measured in log units so has no dimensions; this entry allows the 
+    quantityType to be captured
+    </description>
+  </unit>
+
+
+  <!-- misc - waiting to be maintained -->
+  <unit
+      id="kcal"
+      title="kilocalorie"
+      parentSI="si:joule"
+      multiplierToSI="4.1868E3"
+      symbol="kcal"
+      unitType="unitType:energy">
+    <description>
+	A unit frequently used in chemistry. Sometimes "kcal" is 
+	loosely used for "kcal/mole" or molar energy.
+    </description>
+  </unit>
+  
+  <unit
+      id="kj"
+      title="kilojoule"
+      parentSI="si:joule"
+      multiplierToSI="1E+3"
+      symbol="kJ"
+      unitType="unitType:energy">
+    <description>
+	A unit frequently used in chemistry. Sometimes "kj" is loosely used 
+	for "kj/mole" or molar energy.
+    </description>
+  </unit>
+  
+  <unit
+      id="evpa"
+      parentSI="si:unknown"
+      title="from siesta"
+      unitType="unitType:unknown">
+    <description>
+    </description>
+</unit>
+
+  
+  <unit
+      id="kcal.ang-1"
+      parentSI="si:unknown"
+      title="from mopac"
+      symbol="kcal A-1"
+      unitType="unitType:unknown">
+      >
+    <description>
+    </description>
+  </unit>
+  
+  <unit
+      id="kcal.rad-1"
+      parentSI="si:unknown"
+      symbol="kcal rad-1"
+      title="from mopac">
+    <description>
+    </description>
+  </unit>
+  
+  <unit
+      id="cm-1"
+      parentSI="si:m-1"
+      symbol="cm-1"
+      title="wavenumber">
+    <description>
+    </description>
+  </unit>
+  <unit
+       id="y"
+       title="Year" 
+       parentSI="si:s"
+       multiplierToSI="3.16888E-08" 
+       symbol="y" 
+       unitType="unitType:time">
+	  <description>not yet added
+	  </description>
+  </unit>
+  
+</unitList>

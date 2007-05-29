@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list xmlns="http://www.xml-cml.org/schema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:bo="http://www.blueobelisk.org/dict/terminology"
+      xmlns:boUnits="http://www.blueobelisk.org/dict/units"
+      xmlns:units="http://www.xml-cml.org/units/units"
+      xmlns:siUnits="http://www.xml-cml.org/units/siUnits"
+      xmlns:bibx="http://bibtexml.sf.net/"
+      xsi:schemaLocation="http://www.xml-cml.org/schema ../schemas/cml23.xsd
+                         http://bibtexml.sf.net/        ../schemas/bibtexml.xsd"
+      id="crystalStructure"
+      title="properties of the crystals">
+
+  <metadataList>
+    <metadata name="dc:title" content="Blue Obelisk Element Repository" />
+    <metadata name="dc:creator" content="The Blue Obelisk Movement" />
+    <metadata name="dc:license" content="The MIT License" />
+    <metadata name="dc:contributor" content="Carsten Niehaus" />
+  </metadataList>
+  <molecule id="H1">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">470.0</scalar>
+      <scalar id="sc2" title="b" units="units:pm">470.0</scalar>
+      <scalar id="sc3" title="c" units="units:pm">340.0</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="H" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="He2">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">424.2</scalar>
+      <scalar id="sc2" title="b" units="units:pm">424.2</scalar>
+      <scalar id="sc3" title="c" units="units:pm">424.2</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="225" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="He" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Li3">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">351.0</scalar>
+      <scalar id="sc2" title="b" units="units:pm">351.0</scalar>
+      <scalar id="sc3" title="c" units="units:pm">351.0</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="229" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Li" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Be4">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">228.58</scalar>
+      <scalar id="sc2" title="b" units="units:pm">228.58</scalar>
+      <scalar id="sc3" title="c" units="units:pm">358.43</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Be" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="B5">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">506.0</scalar>
+      <scalar id="sc2" title="b" units="units:pm">506.0</scalar>
+      <scalar id="sc3" title="c" units="units:pm">506.0</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">58.06</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">58.06</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">58.06</scalar>
+      <symmetry id="s1" spaceGroup="166" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="B" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="C6">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">246.4</scalar>
+      <scalar id="sc2" title="b" units="units:pm">246.4</scalar>
+      <scalar id="sc3" title="c" units="units:pm">671.1</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="C" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="N7">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">386.1</scalar>
+      <scalar id="sc2" title="b" units="units:pm">386.1</scalar>
+      <scalar id="sc3" title="c" units="units:pm">626.5</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="N" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="O8">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">540.3</scalar>
+      <scalar id="sc2" title="b" units="units:pm">342.9</scalar>
+      <scalar id="sc3" title="c" units="units:pm">508.6</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">132.53</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="12" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="O" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="F9">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">550.0</scalar>
+      <scalar id="sc2" title="b" units="units:pm">328.0</scalar>
+      <scalar id="sc3" title="c" units="units:pm">728.0</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="15" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="F" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Ne10">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">442.9</scalar>
+      <scalar id="sc2" title="b" units="units:pm">442.9</scalar>
+      <scalar id="sc3" title="c" units="units:pm">442.9</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="225" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Ne" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Na11">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">429.06</scalar>
+      <scalar id="sc2" title="b" units="units:pm">429.06</scalar>
+      <scalar id="sc3" title="c" units="units:pm">429.06</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="229" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Na" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Mg12">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">320.94</scalar>
+      <scalar id="sc2" title="b" units="units:pm">320.94</scalar>
+      <scalar id="sc3" title="c" units="units:pm">524.08</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Mg" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Al13">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">404.95</scalar>
+      <scalar id="sc2" title="b" units="units:pm">404.95</scalar>
+      <scalar id="sc3" title="c" units="units:pm">404.95</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="225" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Al" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Si14">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">543.09</scalar>
+      <scalar id="sc2" title="b" units="units:pm">543.09</scalar>
+      <scalar id="sc3" title="c" units="units:pm">543.09</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="227" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Si" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="P15">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">1145.0</scalar>
+      <scalar id="sc2" title="b" units="units:pm">505.3</scalar>
+      <scalar id="sc3" title="c" units="units:pm">1126.1</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">71.84</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.37</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">71.56</scalar>
+      <symmetry id="s1" spaceGroup="2" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="P" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="S16">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">1043.7</scalar>
+      <scalar id="sc2" title="b" units="units:pm">1284.5</scalar>
+      <scalar id="sc3" title="c" units="units:pm">2436.9</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="70" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="S" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Cl17">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">622.35</scalar>
+      <scalar id="sc2" title="b" units="units:pm">445.61</scalar>
+      <scalar id="sc3" title="c" units="units:pm">817.85</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="64" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Cl" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Ar18">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">525.6</scalar>
+      <scalar id="sc2" title="b" units="units:pm">525.6</scalar>
+      <scalar id="sc3" title="c" units="units:pm">525.6</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="225" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Ar" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="K19">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">532.8</scalar>
+      <scalar id="sc2" title="b" units="units:pm">532.8</scalar>
+      <scalar id="sc3" title="c" units="units:pm">532.8</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="229" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="K" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Ca20">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">558.84</scalar>
+      <scalar id="sc2" title="b" units="units:pm">558.84</scalar>
+      <scalar id="sc3" title="c" units="units:pm">558.84</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="225" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Ca" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Sc21">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">330.9</scalar>
+      <scalar id="sc2" title="b" units="units:pm">330.9</scalar>
+      <scalar id="sc3" title="c" units="units:pm">527.33</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Sc" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Ti22">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">295.8</scalar>
+      <scalar id="sc2" title="b" units="units:pm">295.8</scalar>
+      <scalar id="sc3" title="c" units="units:pm">468.55</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Ti" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="V23">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">303.0</scalar>
+      <scalar id="sc2" title="b" units="units:pm">303.0</scalar>
+      <scalar id="sc3" title="c" units="units:pm">303.0</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="229" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="V" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Cr24">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">291.0</scalar>
+      <scalar id="sc2" title="b" units="units:pm">291.0</scalar>
+      <scalar id="sc3" title="c" units="units:pm">291.0</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="229" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Cr" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Mn25">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">891.25</scalar>
+      <scalar id="sc2" title="b" units="units:pm">891.25</scalar>
+      <scalar id="sc3" title="c" units="units:pm">891.25</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="217" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Mn" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Fe26">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">286.65</scalar>
+      <scalar id="sc2" title="b" units="units:pm">286.65</scalar>
+      <scalar id="sc3" title="c" units="units:pm">286.65</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="229" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Fe" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Co27">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">250.71</scalar>
+      <scalar id="sc2" title="b" units="units:pm">250.71</scalar>
+      <scalar id="sc3" title="c" units="units:pm">406.95</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Co" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Ni28">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">352.4</scalar>
+      <scalar id="sc2" title="b" units="units:pm">352.4</scalar>
+      <scalar id="sc3" title="c" units="units:pm">352.4</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="225" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Ni" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Cu29">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">361.49</scalar>
+      <scalar id="sc2" title="b" units="units:pm">361.49</scalar>
+      <scalar id="sc3" title="c" units="units:pm">361.49</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="225" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Cu" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Zn30">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">266.49</scalar>
+      <scalar id="sc2" title="b" units="units:pm">266.49</scalar>
+      <scalar id="sc3" title="c" units="units:pm">494.68</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Zn" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Ga31">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">451.97</scalar>
+      <scalar id="sc2" title="b" units="units:pm">766.33</scalar>
+      <scalar id="sc3" title="c" units="units:pm">452.6</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="64" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Ga" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Ge32">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">565.75</scalar>
+      <scalar id="sc2" title="b" units="units:pm">565.75</scalar>
+      <scalar id="sc3" title="c" units="units:pm">565.75</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="225" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Ge" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="As33">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">375.98</scalar>
+      <scalar id="sc2" title="b" units="units:pm">375.98</scalar>
+      <scalar id="sc3" title="c" units="units:pm">1054.75</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="166" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="As" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Se34">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">905.4</scalar>
+      <scalar id="sc2" title="b" units="units:pm">908.3</scalar>
+      <scalar id="sc3" title="c" units="units:pm">1160.1</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.81</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="14" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Se" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Br35">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">672.65</scalar>
+      <scalar id="sc2" title="b" units="units:pm">464.51</scalar>
+      <scalar id="sc3" title="c" units="units:pm">870.23</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="64" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Br" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Kr36">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">570.6</scalar>
+      <scalar id="sc2" title="b" units="units:pm">570.6</scalar>
+      <scalar id="sc3" title="c" units="units:pm">570.6</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="225" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Kr" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Rb37">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">558.5</scalar>
+      <scalar id="sc2" title="b" units="units:pm">558.5</scalar>
+      <scalar id="sc3" title="c" units="units:pm">558.5</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="229" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Rb" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Sr38">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">608.49</scalar>
+      <scalar id="sc2" title="b" units="units:pm">608.49</scalar>
+      <scalar id="sc3" title="c" units="units:pm">608.49</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="225" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Sr" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Y39">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">364.74</scalar>
+      <scalar id="sc2" title="b" units="units:pm">364.74</scalar>
+      <scalar id="sc3" title="c" units="units:pm">573.06</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Y" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Zr40">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">323.2</scalar>
+      <scalar id="sc2" title="b" units="units:pm">323.2</scalar>
+      <scalar id="sc3" title="c" units="units:pm">514.7</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Zr" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Nb41">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">330.04</scalar>
+      <scalar id="sc2" title="b" units="units:pm">330.04</scalar>
+      <scalar id="sc3" title="c" units="units:pm">330.04</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="229" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Nb" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Mo42">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">314.7</scalar>
+      <scalar id="sc2" title="b" units="units:pm">314.7</scalar>
+      <scalar id="sc3" title="c" units="units:pm">314.7</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="229" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Mo" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Tc43">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">273.5</scalar>
+      <scalar id="sc2" title="b" units="units:pm">273.5</scalar>
+      <scalar id="sc3" title="c" units="units:pm">438.8</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Tc" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Ru44">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">270.59</scalar>
+      <scalar id="sc2" title="b" units="units:pm">270.59</scalar>
+      <scalar id="sc3" title="c" units="units:pm">428.15</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Ru" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Rh45">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">380.34</scalar>
+      <scalar id="sc2" title="b" units="units:pm">380.34</scalar>
+      <scalar id="sc3" title="c" units="units:pm">380.34</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="225" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Rh" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Pd46">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">389.07</scalar>
+      <scalar id="sc2" title="b" units="units:pm">389.07</scalar>
+      <scalar id="sc3" title="c" units="units:pm">389.07</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="225" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Pd" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Ag47">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">408.53</scalar>
+      <scalar id="sc2" title="b" units="units:pm">408.53</scalar>
+      <scalar id="sc3" title="c" units="units:pm">408.53</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="225" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Ag" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Cd48">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">297.94</scalar>
+      <scalar id="sc2" title="b" units="units:pm">297.94</scalar>
+      <scalar id="sc3" title="c" units="units:pm">561.86</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Cd" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="In49">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">325.23</scalar>
+      <scalar id="sc2" title="b" units="units:pm">325.23</scalar>
+      <scalar id="sc3" title="c" units="units:pm">494.61</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="139" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="In" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Sn50">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">583.18</scalar>
+      <scalar id="sc2" title="b" units="units:pm">583.18</scalar>
+      <scalar id="sc3" title="c" units="units:pm">318.19</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="141" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Sn" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Sb51">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">430.7</scalar>
+      <scalar id="sc2" title="b" units="units:pm">430.7</scalar>
+      <scalar id="sc3" title="c" units="units:pm">1127.3</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="166" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Sb" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Te52">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">445.72</scalar>
+      <scalar id="sc2" title="b" units="units:pm">445.72</scalar>
+      <scalar id="sc3" title="c" units="units:pm">592.9</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="152" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Te" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="I53">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">718.02</scalar>
+      <scalar id="sc2" title="b" units="units:pm">471.02</scalar>
+      <scalar id="sc3" title="c" units="units:pm">981.03</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="64" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="I" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Xe54">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">620.23</scalar>
+      <scalar id="sc2" title="b" units="units:pm">620.23</scalar>
+      <scalar id="sc3" title="c" units="units:pm">620.23</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="225" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Xe" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Cs55">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">614.1</scalar>
+      <scalar id="sc2" title="b" units="units:pm">614.1</scalar>
+      <scalar id="sc3" title="c" units="units:pm">614.1</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="229" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Cs" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Ba56">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">502.8</scalar>
+      <scalar id="sc2" title="b" units="units:pm">502.8</scalar>
+      <scalar id="sc3" title="c" units="units:pm">502.8</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="229" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Ba" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="La57">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">377.2</scalar>
+      <scalar id="sc2" title="b" units="units:pm">377.2</scalar>
+      <scalar id="sc3" title="c" units="units:pm">1214.4</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="La" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Ce58">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">362.0</scalar>
+      <scalar id="sc2" title="b" units="units:pm">362.0</scalar>
+      <scalar id="sc3" title="c" units="units:pm">599.0</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Ce" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Pr59">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">367.25</scalar>
+      <scalar id="sc2" title="b" units="units:pm">367.25</scalar>
+      <scalar id="sc3" title="c" units="units:pm">1183.54</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Pr" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Nd60">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">365.8</scalar>
+      <scalar id="sc2" title="b" units="units:pm">365.8</scalar>
+      <scalar id="sc3" title="c" units="units:pm">1179.9</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Nd" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Sm62">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">362.1</scalar>
+      <scalar id="sc2" title="b" units="units:pm">362.1</scalar>
+      <scalar id="sc3" title="c" units="units:pm">2625.0</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="166" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Sm" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Eu63">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">458.1</scalar>
+      <scalar id="sc2" title="b" units="units:pm">458.1</scalar>
+      <scalar id="sc3" title="c" units="units:pm">458.1</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="229" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Eu" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Gd64">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">363.6</scalar>
+      <scalar id="sc2" title="b" units="units:pm">363.6</scalar>
+      <scalar id="sc3" title="c" units="units:pm">578.26</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Gd" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Tb65">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">360.1</scalar>
+      <scalar id="sc2" title="b" units="units:pm">360.1</scalar>
+      <scalar id="sc3" title="c" units="units:pm">569.36</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Tb" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Dy66">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">359.3</scalar>
+      <scalar id="sc2" title="b" units="units:pm">359.3</scalar>
+      <scalar id="sc3" title="c" units="units:pm">565.37</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Dy" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Ho67">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">357.73</scalar>
+      <scalar id="sc2" title="b" units="units:pm">357.73</scalar>
+      <scalar id="sc3" title="c" units="units:pm">561.58</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Ho" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Er68">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">355.88</scalar>
+      <scalar id="sc2" title="b" units="units:pm">355.88</scalar>
+      <scalar id="sc3" title="c" units="units:pm">558.74</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Er" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Tm69">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">353.75</scalar>
+      <scalar id="sc2" title="b" units="units:pm">353.75</scalar>
+      <scalar id="sc3" title="c" units="units:pm">555.46</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Tm" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Yb70">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">548.47</scalar>
+      <scalar id="sc2" title="b" units="units:pm">548.47</scalar>
+      <scalar id="sc3" title="c" units="units:pm">548.47</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="225" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Yb" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Lu71">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">350.31</scalar>
+      <scalar id="sc2" title="b" units="units:pm">350.31</scalar>
+      <scalar id="sc3" title="c" units="units:pm">555.09</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Lu" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Hf72">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">319.64</scalar>
+      <scalar id="sc2" title="b" units="units:pm">319.64</scalar>
+      <scalar id="sc3" title="c" units="units:pm">505.11</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Hf" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Ta73">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">330.13</scalar>
+      <scalar id="sc2" title="b" units="units:pm">330.13</scalar>
+      <scalar id="sc3" title="c" units="units:pm">330.13</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="229" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Ta" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="W74">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">316.52</scalar>
+      <scalar id="sc2" title="b" units="units:pm">316.52</scalar>
+      <scalar id="sc3" title="c" units="units:pm">316.52</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="229" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="W" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Re75">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">276.1</scalar>
+      <scalar id="sc2" title="b" units="units:pm">276.1</scalar>
+      <scalar id="sc3" title="c" units="units:pm">445.6</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Re" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Os76">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">273.44</scalar>
+      <scalar id="sc2" title="b" units="units:pm">273.44</scalar>
+      <scalar id="sc3" title="c" units="units:pm">431.73</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Os" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Ir77">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">383.9</scalar>
+      <scalar id="sc2" title="b" units="units:pm">383.9</scalar>
+      <scalar id="sc3" title="c" units="units:pm">383.9</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="225" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Ir" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Pt78">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">392.42</scalar>
+      <scalar id="sc2" title="b" units="units:pm">392.42</scalar>
+      <scalar id="sc3" title="c" units="units:pm">392.42</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="225" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Pt" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Au79">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">407.82</scalar>
+      <scalar id="sc2" title="b" units="units:pm">407.82</scalar>
+      <scalar id="sc3" title="c" units="units:pm">407.82</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="225" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Au" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Hg80">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">300.5</scalar>
+      <scalar id="sc2" title="b" units="units:pm">300.5</scalar>
+      <scalar id="sc3" title="c" units="units:pm">300.5</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">70.52</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">70.52</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">70.52</scalar>
+      <symmetry id="s1" spaceGroup="166" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Hg" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Tl81">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">345.66</scalar>
+      <scalar id="sc2" title="b" units="units:pm">345.66</scalar>
+      <scalar id="sc3" title="c" units="units:pm">552.48</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Tl" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Pb82">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">495.08</scalar>
+      <scalar id="sc2" title="b" units="units:pm">495.08</scalar>
+      <scalar id="sc3" title="c" units="units:pm">495.08</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="225" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Pb" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Bi83">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">667.4</scalar>
+      <scalar id="sc2" title="b" units="units:pm">611.7</scalar>
+      <scalar id="sc3" title="c" units="units:pm">330.4</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">110.33</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="12" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Bi" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Po84">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">335.9</scalar>
+      <scalar id="sc2" title="b" units="units:pm">335.9</scalar>
+      <scalar id="sc3" title="c" units="units:pm">335.9</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="221" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Po" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Ra88">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">514.8</scalar>
+      <scalar id="sc2" title="b" units="units:pm">514.8</scalar>
+      <scalar id="sc3" title="c" units="units:pm">514.8</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="229" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Ra" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Ac89">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">567.0</scalar>
+      <scalar id="sc2" title="b" units="units:pm">567.0</scalar>
+      <scalar id="sc3" title="c" units="units:pm">567.0</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="225" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Ac" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Th90">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">508.42</scalar>
+      <scalar id="sc2" title="b" units="units:pm">508.42</scalar>
+      <scalar id="sc3" title="c" units="units:pm">508.42</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="225" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Th" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Pa91">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">392.5</scalar>
+      <scalar id="sc2" title="b" units="units:pm">392.5</scalar>
+      <scalar id="sc3" title="c" units="units:pm">323.8</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="139" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Pa" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="U92">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">285.37</scalar>
+      <scalar id="sc2" title="b" units="units:pm">586.95</scalar>
+      <scalar id="sc3" title="c" units="units:pm">495.48</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="63" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="U" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Np93">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">666.3</scalar>
+      <scalar id="sc2" title="b" units="units:pm">472.3</scalar>
+      <scalar id="sc3" title="c" units="units:pm">488.7</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="62" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Np" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Pu94">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">618.3</scalar>
+      <scalar id="sc2" title="b" units="units:pm">482.2</scalar>
+      <scalar id="sc3" title="c" units="units:pm">1096.3</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">101.79</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">90.0</scalar>
+      <symmetry id="s1" spaceGroup="11" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Pu" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Am95">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">346.81</scalar>
+      <scalar id="sc2" title="b" units="units:pm">346.81</scalar>
+      <scalar id="sc3" title="c" units="units:pm">1124.1</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Am" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Cm96">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">349.6</scalar>
+      <scalar id="sc2" title="b" units="units:pm">349.6</scalar>
+      <scalar id="sc3" title="c" units="units:pm">1133.1</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Cm" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Bk97">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">341.6</scalar>
+      <scalar id="sc2" title="b" units="units:pm">341.6</scalar>
+      <scalar id="sc3" title="c" units="units:pm">1106.9</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Bk" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+  <molecule id="Cf98">
+    <crystal>
+      <scalar id="sc1" title="a" units="units:pm">338.0</scalar>
+      <scalar id="sc2" title="b" units="units:pm">338.0</scalar>
+      <scalar id="sc3" title="c" units="units:pm">1102.5</scalar>
+      <scalar id="sc4" title="alpha" units="units:degrees">90.0</scalar>
+      <scalar id="sc5" title="beta" units="units:degrees">90.0</scalar>
+      <scalar id="sc6" title="gamma" units="units:degrees">120.0</scalar>
+      <symmetry id="s1" spaceGroup="194" />
+    </crystal>
+    <atomArray>
+      <atom id="a1" elementType="Cf" xFract="0.0" yFract="0.0" zFract="0.0" />
+    </atomArray>
+  </molecule>
+</list>

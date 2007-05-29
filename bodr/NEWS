@@ -1,0 +1,37 @@
+Release version 6 ????-??-??
+
+        * The .txt source files now mention the license too, instead of '??'
+        * updated elemental masses according to a 2006 IUPAC publication
+          (closes SF bug #1660527)
+
+Release version 5 2006-12-27
+
+        * The actinoids are now listed as 'other metal'
+          (closes SF bug #1603063)
+        * The acidity information was removed
+          (closes SF bug #1603066)
+
+Release Version 4 2006-10-16
+
+        * Isotope and element data now conforms a Schematron convention.
+        * XML files are now valid CML 2.3 files
+        * Fixed name of C.W.Scheele 
+        * Added element crystal structure data
+        * Added country where elements were discovered
+
+Release Version 3 2006-06-07
+
+	* Fixed a stupid mistake in the newly shipped pkgconfig file.
+	See Version 2 for other changes.
+
+Release Version 2 2006-06-07 
+
+	* Fixed missing root node in isotopes.xml.
+	* Fixed build issues.
+	* Added isotope info: decay and spin.
+        * Added HTML bibliography for elements.xml
+
+Release Version 1 2006-02-08
+
+	* first tar.gz release
+
