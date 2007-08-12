@@ -43,6 +43,7 @@ bodr.pc
 Makefile
 bibtexml-xslt/Makefile
 dicts/Makefile
+crystal/Makefile
 elements/Makefile
 isotopes/Makefile
 schemas/Makefile

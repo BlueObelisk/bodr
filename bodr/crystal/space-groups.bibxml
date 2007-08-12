@@ -1,0 +1,26 @@
+<bx:entry>
+  <bx:misc>
+    <bx:url>http://cci.lbl.gov/sginfo/hall_symbols.html</bx:url>
+    <bx:title>Concise Space-Group Symbols</bx:title>
+    <bx:author>Sydney R. Hall<bx:author>
+    <bx:author>Ralf W. Grosse-Kunstleve<bx:author>
+    <bx:year>2007</bx:year>
+    <bx:month>August</bx:month>
+  </bx:misc>
+</bx:entry>
+<bx:entry>
+  <bx:misc>
+    <bx:url>http://www.mkmc.dk/crystal/group.html</bx:url>
+    <bx:year>2007</bx:year>
+    <bx:month>August</bx:month>
+  </bx:misc>
+</bx:entry>
+<bx:entry>
+  <bx:misc>
+    <bx:url>http://cci.lbl.gov/cctbx/explore_symmetry.html</bx:url>
+    <bx:title>cctbx - Explore symmetry</bx:title>
+    <bx:author>Per Stoltze<bx:author>
+    <bx:year>2007</bx:year>
+    <bx:month>August</bx:month>
+  </bx:misc>
+</bx:entry>

@@ -1,5 +1,5 @@
 
-SUBDIRS = bibtexml-xslt dicts elements isotopes schemas scripts
+SUBDIRS = bibtexml-xslt dicts crystal elements isotopes schemas scripts
 
 AUTOMAKE_OPTIONS = dist-bzip2
 
