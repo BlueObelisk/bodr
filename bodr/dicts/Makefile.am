@@ -18,6 +18,6 @@ if HAVE_XMLLINT
 	$(XMLLINT) $(XMLLINT_FLAGS_XSD) $(srcdir)/$(xml_DATA)
 	$(XMLLINT) $(XMLLINT_FLAGS_SCHEMATRON) $(srcdir)/$(xml_DATA)
 else
-	$(warning "Cannot check the XML files because 'xmllint' is missing.")
+	@echo "Warning: Cannot check the XML files because 'xmllint' is missing."
 endif
 

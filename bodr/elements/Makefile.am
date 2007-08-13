@@ -68,13 +68,16 @@ vpath %.rb  $(top_srcdir)/scripts
 vpath %.xsl $(top_srcdir)/bibtexml-xslt
 
 
+SUFFIXES = .html .bxml
+
+
 crystaldir = ${pkgdatadir}
 crystal_DATA = crystalstructures.xml
 
 elementdir = ${pkgdatadir}
 element_DATA = elements.xml
 
-docsdir = ${datadir}/doc/${PACKAGE}/bibxml
+docsdir = ${docdir}/biblio
 docs_DATA = elements_biblio.html crystalstructures_biblio.html
 
 
@@ -94,8 +97,8 @@ elements_biblio.bxml : $(elements_BIBXML)
 	cat $^ >> $@
 	echo "</bx:file>" >> $@
 
-%_biblio.html : html-harvard.xsl %_biblio.bxml
-	$(XSLTPROC) $(XSLTPROC_FLAGS) $^ > $@
+.bxml.html:
+	$(XSLTPROC) $(XSLTPROC_FLAGS) $(top_srcdir)/bibtexml-xslt/html-harvard.xsl $< > $@
 
 
 check-local:
@@ -103,6 +106,6 @@ if HAVE_XMLLINT
 	$(XMLLINT) $(XMLLINT_FLAGS_XSD) $(srcdir)/$(crystal_DATA)
 	$(XMLLINT) $(XMLLINT_FLAGS_SCHEMATRON) $(srcdir)/$(element_DATA)
 else
-	$(warning "Cannot check the XML files because 'xmllint' is missing.")
+	@echo "Warning: Cannot check the XML files because 'xmllint' is missing."
 endif
 

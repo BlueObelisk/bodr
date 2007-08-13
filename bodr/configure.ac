@@ -38,15 +38,22 @@ if test "$prefix" = "NONE"; then
         prefix=/usr/local
 fi
 
+if test -z "$docdir" ; then
+	AC_SUBST(
+		[docdir],
+		[${datadir}'/doc/${PACKAGE}']
+	)
+fi
+
 AC_CONFIG_FILES([
-bodr.pc
-Makefile
-bibtexml-xslt/Makefile
-dicts/Makefile
-crystal/Makefile
-elements/Makefile
-isotopes/Makefile
-schemas/Makefile
-scripts/Makefile
+	bodr.pc
+	Makefile
+	bibtexml-xslt/Makefile
+	dicts/Makefile
+	crystal/Makefile
+	elements/Makefile
+	isotopes/Makefile
+	schemas/Makefile
+	scripts/Makefile
 ])
 AC_OUTPUT

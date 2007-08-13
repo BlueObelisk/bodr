@@ -1,3 +1,18 @@
+2007-08-13 Daniel Leidert <daniel.leidert@wgdd.de>
+	* bodr.pc.in: Removed unnecessary paths (closes #1713504 sf.net).
+	* configure.ac: Added backwards-compatible snippet to determine the
+	docdir variable/option value, that is available in newer autoconf
+	versions, to ste the installation path of biblio HTML output.
+	* bibtexml-xslt/html-harvard.xsl: Output PUBLIC and SYSTEM IDs for
+	XHTML. Further fixed indentation.
+	* crystal/Makefile.am: Added creation of biblio-html output and its
+	installation.
+	* crystal/space-groups.bibxml: Fixed invalid XML.
+	* isotopes/Makefile.am: Replaced GNU make specific pattern.
+	* dicts/Makefile.am: Ditto.
+	* elements/Makefile.am: Ditto. Also set the installation path for
+	biblio HTML to docdir.
+
 2007-08-12  Jean Brefort  <jean.brefort@normalesup.org>
 	* Makefile.am: add sace groups descriptions.
 	* configure.ac: ditto.

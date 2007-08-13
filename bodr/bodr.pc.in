@@ -1,14 +1,10 @@
 prefix=@prefix@
 datarootdir=@datarootdir@
 datadir=@datadir@
-exec_prefix=@exec_prefix@
-includedir=@includedir@
-libdir=@libdir@
-pkgdatadir=@datadir@/@PACKAGE_NAME@
 
 Name: @PACKAGE_NAME@
 Description: Blue Obelisk Data Repository
-URL: @PACKAGE_BUGREPORT@
+URL: http://bodr.sf.net
 Version: @PACKAGE_VERSION@
 Requires:
 Libs:
