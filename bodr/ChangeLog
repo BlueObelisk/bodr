@@ -1,3 +1,6 @@
+2007-10-19 Daniel Leidert <daniel.leidert@wgdd.de>
+	* bodr.pc.in: Re-added pkgdatadir (closes #1713504 sf.net).
+
 2007-08-13 Daniel Leidert <daniel.leidert@wgdd.de>
 	* bodr.pc.in: Removed unnecessary paths (closes #1713504 sf.net).
 	* configure.ac: Added backwards-compatible snippet to determine the

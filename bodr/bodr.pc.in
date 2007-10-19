@@ -1,6 +1,7 @@
 prefix=@prefix@
 datarootdir=@datarootdir@
 datadir=@datadir@
+pkgdatadir=@datadir@/@PACKAGE_NAME@
 
 Name: @PACKAGE_NAME@
 Description: Blue Obelisk Data Repository
