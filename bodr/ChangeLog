@@ -1,3 +1,6 @@
+2007-12-18 Daniel Leidert <daniel.leidert@wgdd.de>
+	* Makefile.am (docsdir): Use the docdir variable.
+
 2007-10-19 Daniel Leidert <daniel.leidert@wgdd.de>
 	* bodr.pc.in: Re-added pkgdatadir (closes #1713504 sf.net).
 

@@ -27,7 +27,7 @@ MAINTAINERCLEANFILES = \
 # @PACKAGE@-@VERSION@.tar.{bz2,gz}
 
 
-docsdir = ${datadir}/doc/${PACKAGE}
+docsdir = ${docdir}
 docs_DATA = AUTHORS THANKS ChangeLog COPYING README
 
 pkgconfigdir = ${datadir}/pkgconfig
