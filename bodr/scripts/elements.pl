@@ -76,17 +76,17 @@ for(@elements) {
     print ">$elements[$atomicNum]{exactMass}</scalar>\n";
 
     #Density
-#     if (exists $elements[$atomicNum]{density}){
-# 	    print "    <scalar dataType=\"xsd:float\" dictRef=\"bo:density\"";
-# 	    if ( $elements[$atomicNum]{aggregation} eq "g") {
-# 		    print " units=\"g.l-1\"";
-# 	    }
-# 	    else{
-# 		    print " units=\"g.cm-3\"";
-# 	    }
-# 
-#      print ">$elements[$atomicNum]{density}</scalar>\n";
-#     }
+#    if (exists $elements[$atomicNum]{density}){
+#	    print "    <scalar dataType=\"xsd:float\" dictRef=\"bo:density\"";
+#           if ( $elements[$atomicNum]{aggregation} eq "g") {
+#		    print " units=\"g.l-1\"";
+#	    }
+#	    else{
+#		    print " units=\"g.cm-3\"";
+#	    }
+#
+#     print ">$elements[$atomicNum]{density}</scalar>\n";
+#    }
 
     # ionization energies
     if (exists $elements[$atomicNum]{ionization} ) {
@@ -437,7 +437,6 @@ sub readDatesAndDiscoveres {
 		chomp;
 		my @data = split(':', $_);
 
-
 		next if ($_ =~ m/^#/);
 		if (scalar(@data) == 2) {
 			my $atomicNum = $data[0];
@@ -476,9 +475,8 @@ sub readElectronicConfiguration {
 	while (<ECONF>) {
 		chomp;
 
-		if ($_ =~ m/^#/) {
-			# skip comment lines
-		} elsif ($_ =~ m/^(\d*)\s*(.*)/) {
+		next if ($_ =~ m/^#/);
+		if ($_ =~ m/^(\d*)\s*(.*)/) {
 			$elements[$1]{electronicConfiguration} = $2;
 		}
 	}
@@ -491,10 +489,11 @@ sub readAcidicbehaviour{
     open PERIODS, "<acidicbehaviour.txt";
     while (<PERIODS>) {
         chomp;
+		
+	next if ($_ =~ m/^#/);
 
         my @line = split;
         my $atomicNum = shift @line;
-        next if ($atomicNum eq "#");
 
         $elements[$atomicNum]{acidicbehaviour} = shift @line;
     }
