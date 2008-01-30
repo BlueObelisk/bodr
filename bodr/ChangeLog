@@ -1,3 +1,11 @@
+2008-01-30 Carsten Niehaus <cniehaus@kde.org>
+	* elements.pl: Improving the elements.pl script. It is now using a
+	regular expressing instead of a strange check of the invalid atomic
+	number
+	* elements.pl: Fing the bug that discoverydates are not used when no
+	person (discoverer) is known for that element. 
+	* elements.xml: Regenerated
+
 2007-12-18 Daniel Leidert <daniel.leidert@wgdd.de>
 	* Makefile.am (docsdir): Use the docdir variable.
 
