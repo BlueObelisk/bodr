@@ -212,9 +212,9 @@ sub readColors {
     while (<COLORS>) {
 	chomp;
 	
+	next if ($_ =~ m/^#/);
 	my @line = split; # let's just save the line items
 	my $atomicNum = shift @line;
-	next if ($atomicNum eq "#");
 	
 	$elements[$atomicNum]{red} = shift @line;
 	$elements[$atomicNum]{green} = shift @line;
@@ -230,9 +230,9 @@ sub readNamesAndSymbols {
     while (<NAMES>) {
 	chomp;
 	
+	next if ($_ =~ m/^#/);
 	my @line = split;
 	my $atomicNum = shift @line;
-	next if ($atomicNum eq "#");
 	
 	$elements[$atomicNum]{symbol} = shift @line;
 	$elements[$atomicNum]{name} = shift @line;
@@ -248,9 +248,9 @@ open MASS, "<mass.txt";
 while (<MASS>) {
     chomp;
 
+    next if ($_ =~ m/^#/);
     my @line = split;
     my $atomicNum = shift @line;
-    next if ($atomicNum eq "#");
 
     shift @line; # symbol
     $elements[$atomicNum]{mass} = shift @line;
@@ -268,9 +268,9 @@ sub readExactMasses {
     while (<EXACTMASS>) {
 	chomp;
 	
+	next if ($_ =~ m/^#/);
 	my @line = split;
 	my $atomicNum = shift @line;
-	next if ($atomicNum eq "#");
 	
 	shift @line; # most common isotope
 	$elements[$atomicNum]{exactMass} = shift @line;
@@ -288,9 +288,9 @@ sub readIonization {
     while (<IONIZE>) {
 	chomp;
 	
+	next if ($_ =~ m/^#/);
 	my @line = split;
 	my $atomicNum = shift @line;
-	next if ($atomicNum eq "#");
 	
 	shift @line; # symbol
 	$elements[$atomicNum]{ionization} = shift @line;
@@ -305,9 +305,9 @@ sub readElectronAffinity {
     while (<EA>) {
 	chomp;
 	
+	next if ($_ =~ m/^#/);
 	my @line = split;
 	my $atomicNum = shift @line;
-	next if ($atomicNum eq "#");
 	
 	$elements[$atomicNum]{affinity} = shift @line;
 	if (my $eaError = shift @line) {
@@ -324,9 +324,9 @@ sub readPauling {
     while (<PAULING>) {
 	chomp;
 	
+	next if ($_ =~ m/^#/);
 	my @line = split;
 	my $atomicNum = shift @line;
-	next if ($atomicNum eq "#");
 	
 	$elements[$atomicNum]{pauling} = shift @line;
     }
@@ -334,15 +334,14 @@ sub readPauling {
 }
 
 sub readEthymology {
-    die "Can't find nameorigin.txt!\n" if (! -e "nameorigin.txt");
+	die "Can't find nameorigin.txt!\n" if (! -e "nameorigin.txt");
 
 	open ORIGIN, "<nameorigin.txt";
 	while (<ORIGIN>) {
 		chomp;
 
-		if ($_ =~ m/^#/) {
-			# skip comment lines
-		} elsif ($_ =~ m/^(\d*)\s*(.*)/) {
+		next if ($_ =~ m/^#/);
+		if ($_ =~ m/^(\d*)\s*(.*)/) {
 			$elements[$1]{nameOrigin} = $2;
 		}
 	}
@@ -356,9 +355,9 @@ sub readRadiiCovalent {
     while (<COVALENT>) {
 	chomp;
 	
+	next if ($_ =~ m/^#/);
 	my @line = split;
 	my $atomicNum = shift @line;
-	next if ($atomicNum eq "#");
 	
 	$elements[$atomicNum]{covalent} = shift @line;
     }
@@ -372,9 +371,9 @@ sub readRadiiVanDerWaals {
     while (<VDW>) {
 	chomp;
 	
+	next if ($_ =~ m/^#/);
 	my @line = split;
 	my $atomicNum = shift @line;
-	next if ($atomicNum eq "#");
 	
 	$elements[$atomicNum]{vdw} = shift @line;
     }
@@ -388,9 +387,9 @@ sub readBoilingpoint{
     while (<BOILING>) {
         chomp;
 
+	next if ($_ =~ m/^#/);
         my @line = split;
         my $atomicNum = shift @line;
-        next if ($atomicNum eq "#");
 
         $elements[$atomicNum]{boiling} = shift @line;
     }
@@ -404,9 +403,9 @@ sub readMeltingpoint{
     while (<MELTING>) {
         chomp;
 
+	next if ($_ =~ m/^#/);
         my @line = split;
         my $atomicNum = shift @line;
-        next if ($atomicNum eq "#");
 
         $elements[$atomicNum]{melting} = shift @line;
     }
@@ -420,9 +419,9 @@ sub readBlocks{
     while (<BLOCKS>) {
         chomp;
 
+	next if ($_ =~ m/^#/);
         my @line = split;
         my $atomicNum = shift @line;
-        next if ($atomicNum eq "#");
 
         $elements[$atomicNum]{block} = shift @line;
     }
@@ -458,9 +457,9 @@ sub readPeriods{
     while (<PERIODS>) {
         chomp;
 
+	next if ($_ =~ m/^#/);
         my @line = split;
         my $atomicNum = shift @line;
-        next if ($atomicNum eq "#");
 
         $elements[$atomicNum]{period} = shift @line;
     }
@@ -491,7 +490,6 @@ sub readAcidicbehaviour{
         chomp;
 		
 	next if ($_ =~ m/^#/);
-
         my @line = split;
         my $atomicNum = shift @line;
 
@@ -506,9 +504,9 @@ sub readGroups{
     while (<GROUPS>) {
         chomp;
 
+	next if ($_ =~ m/^#/);
         my @line = split;
         my $atomicNum = shift @line;
-        next if ($atomicNum eq "#");
 
         $elements[$atomicNum]{group} = shift @line;
     }
@@ -522,7 +520,7 @@ sub readFamilies{
     while (<FAMILIES>) {
         chomp;
 
-        next if (substr($_,0,1) eq "#");
+	next if ($_ =~ m/^#/);
         my @line = split;
         my $atomicNum = shift @line;
 
@@ -538,11 +536,9 @@ sub readDensity{
   while (<DENSITY>) {
     chomp;
 
+    next if ($_ =~ m/^#/);
     my @line = split;
-
     my ($atomicNum, $density, $aggr, @restOfLine) = split;
-
-    next if ($atomicNum eq "#");
 
     $elements[$atomicNum]{density} = $density;
     $elements[$atomicNum]{aggregation} = $aggr;
@@ -557,9 +553,9 @@ sub readCountries{
     while (<COUNTRIES>) {
         chomp;
 
+	next if ($_ =~ m/^#/);
         my @line = split;
         my $atomicNum = shift @line;
-        next if ($atomicNum eq "#");
 
         $elements[$atomicNum]{country} = shift @line;
     }
