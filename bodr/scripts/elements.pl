@@ -76,17 +76,17 @@ for(@elements) {
     print ">$elements[$atomicNum]{exactMass}</scalar>\n";
 
     #Density
-    #if (exists $elements[$atomicNum]{density}){
-    #  print "    <scalar dataType=\"xsd:float\" dictRef=\"bo:density\"";
-    #  if ( $elements[$atomicNum]{aggregation} eq "g") {
-    #    print " units=\"g.l-1\"";
-    #  }
-    #  else{
-    #    print " units=\"g.cm-3\"";
-    #  }
-    #
-    #  print ">$elements[$atomicNum]{density}</scalar>\n";
-    #}
+#     if (exists $elements[$atomicNum]{density}){
+# 	    print "    <scalar dataType=\"xsd:float\" dictRef=\"bo:density\"";
+# 	    if ( $elements[$atomicNum]{aggregation} eq "g") {
+# 		    print " units=\"g.l-1\"";
+# 	    }
+# 	    else{
+# 		    print " units=\"g.cm-3\"";
+# 	    }
+# 
+#      print ">$elements[$atomicNum]{density}</scalar>\n";
+#     }
 
     # ionization energies
     if (exists $elements[$atomicNum]{ionization} ) {
@@ -436,11 +436,18 @@ sub readDatesAndDiscoveres {
 	while (<DATES>){
 		chomp;
 		my @data = split(':', $_);
-		if (scalar(@data) == 3) {
-            my $atomicNum = $data[0];
-            $elements[$atomicNum]{discoveryDate} = $data[1];
-            $elements[$atomicNum]{discoverers} = $data[2];
-        }
+
+
+		next if ($_ =~ m/^#/);
+		if (scalar(@data) == 2) {
+			my $atomicNum = $data[0];
+			$elements[$atomicNum]{discoveryDate} = $data[1];
+		}
+		elsif (scalar(@data) == 3) {
+			my $atomicNum = $data[0];
+			$elements[$atomicNum]{discoveryDate} = $data[1];
+			$elements[$atomicNum]{discoverers} = $data[2];
+		}
 	}
 	close DATES;
 }
