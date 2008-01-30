@@ -251,5 +251,13 @@
 			Conventional color for structure visualization
 		</definition>
 	</entry>
-
+	<entry id="discoveryDate" term="Date of discovery">
+		<annotation>
+			<documentation>
+				<metadata name="dc:contributor" content="cn"/>
+			</documentation>
+		</annotation>
+		<definition>
+			In the given year the date has been described first. A "0" means that the element has always been known to mankind (for example Carbon).		</definition>
+	</entry>
 </dictionary>

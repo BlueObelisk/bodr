@@ -5,6 +5,7 @@
 	* elements.pl: Fing the bug that discoverydates are not used when no
 	person (discoverer) is known for that element. 
 	* elements.xml: Regenerated
+	* blueobelisk-dictionary.xml: Adding documentation for discoveryDate
 
 2007-12-18 Daniel Leidert <daniel.leidert@wgdd.de>
 	* Makefile.am (docsdir): Use the docdir variable.
