@@ -122,3 +122,10 @@
 109 Transition
 110 Transition
 111 Transition
+112 Transition
+113 Other_Metal
+114 Other_Metal
+115 Other_Metal
+116 Other_Metal
+117 Halogene
+118 Noblegas

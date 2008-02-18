@@ -1,3 +1,19 @@
+2008-02-18 Daniel Leidert <daniel.leidert@wgdd.de>
+	* elements/blocks.txt: Added elements 117, 118.
+	* elements/boilingpoint.txt: Added elements 96-98, 118.
+	* elements/dates.txt: Added for elements 112-116, 118.
+	* elements/dates.bibxml: Added related biblographic information.
+	* elements/density.txt: Added for elements 99, 103-116.
+	* elements/discovery_countries.txt: Added for elements 116, 118.
+	* elements/family.txt: Added for elements 112-118.
+	* elements/mass.txt: Added for element 118.
+	* elements/names.txt: Added for elements 117, 118. Fixed formatting
+	issue for element 116.
+	* elements/nameorigin.txt: Added for elements 112-118.
+	* elements/periods.txt: Added element 112-118.
+	* elements/symbols.txt: Added for elements 117, 118.
+	* THANKS: Patches provided by Ryan Kavanagh <ryanakca@kubuntu.org>.
+
 2008-01-30 Carsten Niehaus <cniehaus@kde.org>
 	* elements.pl: Improving the elements.pl script. It is now using a
 	regular expressing instead of a strange check of the invalid atomic

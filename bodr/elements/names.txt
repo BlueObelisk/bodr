@@ -119,4 +119,6 @@
 113	Uut	Ununtrium	
 114	Uuq	Ununquadium	
 115	Uup	Ununpentium	
-116	Uuh	Ununhexium	
+116	Uuh	Ununhexium
+117     Uus     Ununseptium
+118     Uuo     Ununoctium

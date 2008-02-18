@@ -120,3 +120,5 @@
 114 Uuq
 115 Uup
 116 Uuh
+117 Uus
+118 Uuo

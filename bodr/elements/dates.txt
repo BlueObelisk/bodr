@@ -116,3 +116,10 @@
 109:1982:Peter Armbruster;Gottfried Münzenber;et al.
 110:1994:S. Hofmann;V. Ninov;F. P. Hessberger;P. Armbruster;H. Folger;G. Münzenberg;H. J. Schött;et al.
 111:1994:S. Hofmann;V. Ninov;F. P. Hessberger;P. Armbruster;H. Folger;G. Münzenberg;et al.
+112:1996:First created at the Gesellschaft für Schwerionenforschung
+113:2003:Russian scientists at Dubna (JINR);American scientists at the Lawrence Livermore National Laboratory.
+114:1998:Joint Institute for Nuclear Research
+115:2004:Russian scientists at Dubna (JINR);American scientists at the Lawrence Livermore National Laboratory.
+116:2000:Joint Institute for Nuclear Research
+117:0
+118:2006:Russian scientists at Dubna (JINR);American scientists at the Lawrence Livermore National Laboratory.

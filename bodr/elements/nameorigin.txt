@@ -113,3 +113,10 @@
 109 Named after the scientist Lise Meitner.
 110 Named after the German city Darmstadt where many elements have been discovered.
 111 Named after Wilhelm Conrad Röntgen.
+112 Historically known as eka-mercury. Ununbium is a temporary IUPAC systematic element name.
+113 Historically known as eka-thallium. Ununtrium is a temporary IUPAC systematic element name.
+114 Historically known as eka-lead. Ununquadium is a temporary IUPAC systematic element name.
+115 Historically known as eka-bismuth. Ununpentium is a temporary IUPAC systematic element name.
+116 Historically known as eka-polonium. Ununhexium is a temporary IUPAC systematic element name.
+117 Temporary symbol and name. Can also be referred to as eka-astatine.
+118 Historically known as eka-radon, eka-eka-emanation before 1960. Ununbium is a temporary IUPAC systematic element name.
