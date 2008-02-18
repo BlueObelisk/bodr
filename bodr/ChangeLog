@@ -1,4 +1,11 @@
 2008-02-18 Daniel Leidert <daniel.leidert@wgdd.de>
+	* scripts/elements.pl: Make sure that values exist for mass and
+	exactMass (workaround for non-existent element 117).
+	* elements/colors.txt: Added colors for elements 117, 118. Adjusted
+	values for 109-116 (please fix yourself if necessary).
+	* elements/elements.xml: Regenerated from source.
+
+2008-02-18 Daniel Leidert <daniel.leidert@wgdd.de>
 	* elements/blocks.txt: Added elements 117, 118.
 	* elements/boilingpoint.txt: Added elements 96-98, 118.
 	* elements/dates.txt: Added for elements 112-116, 118.

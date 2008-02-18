@@ -63,17 +63,21 @@ for(@elements) {
     print "    <label dictRef=\"bo:name\" xml:lang=\"en\" value=\"$elements[$atomicNum]{name}\" />\n";
 
     # masses and exact masses
-    print "    <scalar dataType=\"xsd:float\" dictRef=\"bo:mass\" units=\"units:atmass\"";
-    if (exists $elements[$atomicNum]{massError}) {
-	print " errorValue=\"$elements[$atomicNum]{massError}\"";
+    if ( exists $elements[$atomicNum]{mass} ) {
+        print "    <scalar dataType=\"xsd:float\" dictRef=\"bo:mass\" units=\"units:atmass\"";
+        if (exists $elements[$atomicNum]{massError}) {
+            print " errorValue=\"$elements[$atomicNum]{massError}\"";
+        }
+        print ">$elements[$atomicNum]{mass}</scalar>\n";
     }
-    print ">$elements[$atomicNum]{mass}</scalar>\n";
 
-    print "    <scalar dataType=\"xsd:float\" dictRef=\"bo:exactMass\" units=\"units:atmass\"";
-    if (exists $elements[$atomicNum]{exactMassError}) {
-	print " errorValue=\"$elements[$atomicNum]{exactMassError}\"";
+    if ( exists $elements[$atomicNum]{exactMass} ) {
+        print "    <scalar dataType=\"xsd:float\" dictRef=\"bo:exactMass\" units=\"units:atmass\"";
+        if (exists $elements[$atomicNum]{exactMassError}) {
+            print " errorValue=\"$elements[$atomicNum]{exactMassError}\"";
+        }
+        print ">$elements[$atomicNum]{exactMass}</scalar>\n";
     }
-    print ">$elements[$atomicNum]{exactMass}</scalar>\n";
 
     #Density
 #    if (exists $elements[$atomicNum]{density}){
