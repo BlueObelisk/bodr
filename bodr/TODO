@@ -1,4 +1,4 @@
-BODR 6
+BODR 8
 -----------------------------------------------------------------------
 - integrate typing, residues, etc
 - add a XSLT to create HTML for the element and isotope lists
@@ -6,4 +6,3 @@ BODR 6
 - have the Schematron check for undefined dictionary references
   (Schematron/xmllint does not seem to like the document() function :( )
 - check bug reports on SF
-- cite new SF project page

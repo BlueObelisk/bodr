@@ -1,4 +1,13 @@
-Release version 6 ????-??-??
+Release version 7 2008-03-01
+
+        * Adds spacegroup information
+        * Removed unnecessary paths (closes #1713504 sf.net)
+        * Make system fixes
+        * Output PUBLIC and SYSTEM IDs for XHTML
+        * Adding documentation for discoveryDate
+        * Added information about elements 112-118
+
+Release version 6 2007-03-10
 
         * The .txt source files now mention the license too, instead of '??'
         * updated elemental masses according to a 2006 IUPAC publication

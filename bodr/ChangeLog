@@ -1,3 +1,7 @@
+2008-03-01 Egon Willighagen <egonw@users.sf.net>
+	* NEWS: Making a release
+        * TODO: Updated
+
 2008-02-18 Daniel Leidert <daniel.leidert@wgdd.de>
 	* scripts/elements.pl: Make sure that values exist for mass and
 	exactMass (workaround for non-existent element 117).
