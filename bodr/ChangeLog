@@ -1,4 +1,9 @@
 2008-03-01 Egon Willighagen <egonw@users.sf.net>
+	* NEWS: BODR 7 released, made place for BODR 8 changes
+	* schemas/cml23.xsd, cml25.xsd: Replaced CML 2.3 with CML 2.5
+          (closes SF bug #1905374)
+
+2008-03-01 Egon Willighagen <egonw@users.sf.net>
 	* ChangeLog: Fixed Carsten's name
 
 2008-03-01 Egon Willighagen <egonw@users.sf.net>

@@ -14,7 +14,7 @@ CLEANFILES = \
 MAINTAINERCLEANFILES = \
 	Makefile.in
 
-XMLLINT_FLAGS_XSD = --noout --schema $(top_srcdir)/schemas/cml23.xsd
+XMLLINT_FLAGS_XSD = --noout --schema $(top_srcdir)/schemas/cml25.xsd
 XMLLINT_FLAGS_SCHEMATRON = --noout --schematron $(top_srcdir)/schemas/elements.schematron
 
 crystalstructures_SRCS = \
