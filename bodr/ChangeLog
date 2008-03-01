@@ -1,4 +1,7 @@
 2008-03-01 Egon Willighagen <egonw@users.sf.net>
+	* ChangeLog: Fixed Carsten's name
+
+2008-03-01 Egon Willighagen <egonw@users.sf.net>
 	* NEWS: Making a release
         * TODO: Updated
 
@@ -115,7 +118,7 @@
         * schema/isotopes.schematron, isotopes/Makefile.am: Extra validation
         * scripts/isotopes.pl: Do not create an entry for Xx
 
-2006-09-02 Carstem Niehaus <cniehaus@kde.org>
+2006-09-02 Carsten Niehaus <cniehaus@kde.org>
 	* elements/elements.xml: Refreshed
 	* scripts/elements.pl: Activated the code which generates the XML for the
 	  Density
@@ -123,26 +126,26 @@
 	* isotopes/halflife.txt: More data
 	* isotopes/decay.txt: More data
 
-2006-09-02 Carstem Niehaus <cniehaus@kde.org>
+2006-09-02 Carsten Niehaus <cniehaus@kde.org>
 	* elements/elements.xml: Refreshed
 	* scripts/elements.pl: Activated the code which generates the XML for the
 	  country where an element has been discovered
 
-2006-09-01 Carstem Niehaus <cniehaus@kde.org>
+2006-09-01 Carsten Niehaus <cniehaus@kde.org>
 	* elements/elements.xml: Changes xsd:String to xsd:string as it is defined
 	in the standard
 
-2006-09-01 Carstem Niehaus <cniehaus@kde.org>
+2006-09-01 Carsten Niehaus <cniehaus@kde.org>
 	* elements/dates.txt: Correct the name of K. W. Scheele to C. W. Scheele for
 	Carl W. Scheele. We looked it up, both spellings are accepted but his
 	birthname is Carl, not Karl.
 
-2006-08-31 Carstem Niehaus <cniehaus@kde.org>
+2006-08-31 Carsten Niehaus <cniehaus@kde.org>
 	* elements/dates.txt: Correct the name of K. W. Scheele. Tungsten named him
 	"Scheel"
 	* elements/dates.txt: Add the second name of K. W. Scheele to Chlorine
 
-2006-08-15 Carstem Niehaus <cniehaus@kde.org>
+2006-08-15 Carsten Niehaus <cniehaus@kde.org>
     * elements/crystalstrutures.txt: Make Si ccp as that is the same as fcc
 
     * elements/crystalstrutures.txt: Make Mn sc (simple cubic)
@@ -153,7 +156,7 @@
     
     * scripts/crystalstrutures.rb: Fix title=""-generation (we had "b" twice)
 
-2006-08-15 Carstem Niehaus <cniehaus@kde.org>
+2006-08-15 Carsten Niehaus <cniehaus@kde.org>
     * elements/crystalstrutures.xml: Improve the id to be SymbolNumber
 
 2006-06-07 Daniel Leidert <daniel.leidert.spam@gmx.net>
@@ -175,7 +178,7 @@
 	* acinclude.m4 (MP_PROG_XSLTPROC): Polished.
 	(MP_PROG_XMLLINT): Added (for XML checking).
 
-2006-08-15 Carstem Niehaus <cniehaus@kde.org>
+2006-08-15 Carsten Niehaus <cniehaus@kde.org>
 
 	* elements/crystalstrutures.xml: Improve the id to be SymbolNumber
 
@@ -199,7 +202,7 @@
 	
 	* scripts/crystalstructures.rb: Ditto.
 
-2006-08-11 Carstem Niehaus <cniehaus@kde.org>
+2006-08-11 Carsten Niehaus <cniehaus@kde.org>
 
 	* created crystalstrutures.xml. The file contains information about
 	  the crystals the pure elements form
