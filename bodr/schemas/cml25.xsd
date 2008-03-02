@@ -545,6 +545,7 @@
                 <xsd:enumeration value="Cu"/>
                 <xsd:enumeration value="Db"/>
                 <xsd:enumeration value="Dy"/>
+                <xsd:enumeration value="Ds"/>
                 <xsd:enumeration value="Er"/>
                 <xsd:enumeration value="Es"/>
                 <xsd:enumeration value="Eu"/>
@@ -606,6 +607,7 @@
                 <xsd:enumeration value="Rb"/>
                 <xsd:enumeration value="Re"/>
                 <xsd:enumeration value="Rf"/>
+                <xsd:enumeration value="Rg"/>
                 <xsd:enumeration value="Rh"/>
                 <xsd:enumeration value="Rn"/>
                 <xsd:enumeration value="Ru"/>
@@ -7167,6 +7169,7 @@ This attribute should only be used for simple formulae (i.e. without brackets or
     <xsd:complexType>
         <xsd:sequence>
             <xsd:element ref="abundance" minOccurs="0" maxOccurs="1"/>
+            <xsd:element ref="scalar" minOccurs="0" maxOccurs="unbounded"/>
         </xsd:sequence>
         <xsd:attributeGroup ref="title"/>
         <xsd:attributeGroup ref="id"/>
