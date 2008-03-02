@@ -1,9 +1,10 @@
 <dictionary xmlns="http://www.xml-cml.org/schema"
-	id="blueobelisk-dictionary" title="BlueObelisk Dictionary">
+	id="blueobelisk-dictionary" title="BlueObelisk Dictionary"
+        convention="bodr:dictionary">
 
 	<annotation>
 		<documentation>
-			<metadata name="cvs:date" content="$Date: 2005/10/21 16:40:02 $"/>
+			<metadata name="dc:date" content="$Date: 2005/10/21 16:40:02 $"/>
                         <metadata name="dc:license" content="The MIT License" />
 		</documentation>
 		<appinfo>
