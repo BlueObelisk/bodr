@@ -8,7 +8,7 @@ MAINTAINERCLEANFILES = \
 	Makefile.in
 
 XMLLINT_FLAGS_XSD = --noout --schema $(top_srcdir)/schemas/cml25.xsd
-XMLLINT_FLAGS_SCHEMATRON = --noout --schematron $(top_srcdir)/schemas/elements.schematron
+XMLLINT_FLAGS_SCHEMATRON = --noout --schematron $(top_srcdir)/schemas/dictionary.schematron
 
 xmldir = ${pkgdatadir}/dicts
 xml_DATA = blueobelisk-dictionary.xml
