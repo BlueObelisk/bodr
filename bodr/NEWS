@@ -1,6 +1,7 @@
-Release version 8 ????-??-??
+Release version 8 2008-03-02
 
-        * Uses CML 2.5
+        * Uses CML 2.5, with two tweaks: missing Rg and Ds; allow <scalar> inside <isotope>
+        * Fixes the distcheck errors: correct dictionary schematron (closes #1905375 on sf.net)
 
 Release version 7 2008-03-01
 
