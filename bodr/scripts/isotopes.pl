@@ -108,7 +108,7 @@ print "     xmlns:boUnits=\"http://www.blueobelisk.org/dict/units\" \n";
 print "     xmlns:units=\"http://www.xml-cml.org/units/units\" \n";
 print "     xmlns:isUnits=\"http://www.xml-cml.org/units/siUnits\" \n";
 print "     xmlns:bibx=\"http://bibtexml.sf.net/\" \n\n";
-print "     xsi:schemaLocation=\"http://www.xml-cml.org/schema ../schemas/cml23.xsd\n";
+print "     xsi:schemaLocation=\"http://www.xml-cml.org/schema ../schemas/cml25.xsd\n";
 print "                         http://bibtexml.sf.net/       ../schemas/bibtexml.xsd\"\n";
 print "      id=\"isotopes\" \n";
 print "      title=\"properties of the isotopes\">\n\n";

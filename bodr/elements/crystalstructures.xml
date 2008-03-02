@@ -6,7 +6,7 @@
       xmlns:units="http://www.xml-cml.org/units/units"
       xmlns:siUnits="http://www.xml-cml.org/units/siUnits"
       xmlns:bibx="http://bibtexml.sf.net/"
-      xsi:schemaLocation="http://www.xml-cml.org/schema ../schemas/cml23.xsd
+      xsi:schemaLocation="http://www.xml-cml.org/schema ../schemas/cml25.xsd
                          http://bibtexml.sf.net/        ../schemas/bibtexml.xsd"
       id="crystalStructure"
       title="properties of the crystals">
