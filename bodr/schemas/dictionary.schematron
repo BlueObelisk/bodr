@@ -1,0 +1,56 @@
+<schema xml:lang="en" version="0.2"
+  xmlns="http://purl.oclc.org/dsdl/schematron">
+
+  <!-- Copyright (c) 2006 Egon Willighagen -->
+
+  <title>Convention for CML format for the BODR element data file.</title>
+
+  <ns prefix='cml' uri='http://www.xml-cml.org/schema'/>
+
+  <!-- convention stuff -->
+
+  <pattern name="Convention specification"> 
+    <rule context="/*">
+      <assert test="@convention and @convention='bodr:dictionary'">The root element must specify @convention="bodr:dictionary".</assert>
+    </rule>
+  </pattern>
+
+  <!-- hierarchy of elements -->
+
+  <pattern name="Element Hierarchy">
+    <rule context="/*"> 
+      <assert test="name()='dictionary'">The root must be &lt;dictionary>.</assert>
+    </rule>
+    <rule context="cml:dictionary">
+      <assert test="count(cml:annotation)=1">The document must contain a &lt;annotation>.</assert>
+    </rule>
+    <rule context="cml:annotation">
+      <assert test="count(cml:documentation)=1">The document &lt;annotation> must contain a &lt;documentation>.</assert>
+    </rule>
+    <rule context="cml:appinfo">
+      <assert test="count(cml:contributor)>1">The document &lt;appinfo> must contain at least one &lt;contributor>.</assert>
+    </rule>
+    <rule context="cml:dictionary">
+      <assert test="count(cml:entry)>1">The document must contain a &lt;entry>.</assert>
+    </rule>
+  </pattern>
+
+  <pattern name="Required metadata details for the dictionary">
+    <rule context="cml:dictionary">
+      <assert test="cml:annotation/cml:documentation/cml:metadata[@name='dc:date']">The &lt;metadataList> element must the date of the document.</assert>
+      <assert test="cml:annotation/cml:documentation/cml:metadata[@name='dc:license']">The &lt;metadataList> element must specify the license of the document.</assert>
+    </rule>
+  </pattern>
+
+  <!-- Basic entry details -->
+
+  <pattern name="Basic entry details">
+    <rule context="cml:entry">
+      <assert test="@id">An &lt;entry> must have an @id attribute.</assert>
+      <assert test="@term">An &lt;entry> must have an @term attribute.</assert>
+      <assert test="cml:definition">An &lt;entry> must have a &lt;definition> child.</assert>
+      <assert test="cml:annotation">An &lt;entry> must have a &lt;annotation> child.</assert>
+    </rule>
+  </pattern>
+
+</schema>
