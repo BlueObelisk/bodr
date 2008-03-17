@@ -7,6 +7,8 @@
 
 2008-03-17 Carsten Niehaus <cniehaus@kde.org>
 	* isotopes/isotopes.xml: Remove halflifes with a value of -1
+	* elements/elements.xml: Rework the name origin.
+	* elements/nameorigin.bibxml: Adding the file
 
 2008-03-10 Daniel Leidert <daniel.leidert@wgdd.de>
 	* COPYING: Updated copyright. Reformatting to textwidth of 80
