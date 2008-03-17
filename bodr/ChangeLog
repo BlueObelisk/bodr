@@ -1,3 +1,6 @@
+2008-03-16 Carsten Niehaus <cniehaus@kde.org>
+	* isotopes/isotopes.xml: Remove halflifes with a value of -1
+
 2008-03-01 Daniel Leidert <daniel.leidert@wgdd.de>
 	* COPYING: Updated copyright. Reformatting to textwidth of 80
 	characters.

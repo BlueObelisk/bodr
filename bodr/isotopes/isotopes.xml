@@ -13,19 +13,19 @@
       id="isotopes" 
       title="properties of the isotopes">
 
-  <metadataList>
-    <!-- manually updated -->
+      <metadataList>
+	      <!-- manually updated -->
 
-    <metadata name="dc:title" content="Blue Obelisk Element Repository" />
-    <metadata name="dc:creator" content="The Blue Obelisk Movement" />
-    <metadata name="dc:license" content="The MIT License" />
-    <metadata name="dc:contributor" content="Geoffrey R. Hutchison" />
-    <metadata name="dc:contributor" content="Carsten Niehaus" />
-    <metadata name="dc:contributor" content="Egon Willighagen" />
-	   <metadata name="dc:contributor" content="Jörg Buchwald" />
-	   <metadata name="dc:contributor" content="Martin Pfeiffer" />
-    <metadata name="dc:description" content="Database of isotopes and isotopic properties (names, symbols, exact masses, spin, abundances, magnetic dipole moment, decay energy, etc)" />
-  </metadataList>
+	      <metadata name="dc:title" content="Blue Obelisk Element Repository" />
+	      <metadata name="dc:creator" content="The Blue Obelisk Movement" />
+	      <metadata name="dc:license" content="The MIT License" />
+	      <metadata name="dc:contributor" content="Geoffrey R. Hutchison" />
+	      <metadata name="dc:contributor" content="Carsten Niehaus" />
+	      <metadata name="dc:contributor" content="Egon Willighagen" />
+	      <metadata name="dc:contributor" content="Jörg Buchwald" />
+	      <metadata name="dc:contributor" content="Martin Pfeiffer" />
+	      <metadata name="dc:description" content="Database of isotopes and isotopic properties (names, symbols, exact masses, spin, abundances, magnetic dipole moment, decay energy, etc)" />
+      </metadataList>
 
 <isotopeList id="H">
 	<isotope id="H1" number="1" elementType="H">
