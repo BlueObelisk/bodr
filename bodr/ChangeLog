@@ -1,11 +1,18 @@
-2008-03-16 Carsten Niehaus <cniehaus@kde.org>
+2008-03-17 Egon Willighagen <egonw@users.sf.net>
+	* elements/*.txt: removed in favor of the .xml source
+	* isotopes/*.txt: ditto
+	* scripts/elements.pl: obsolete, because .xml is the source now
+	* scripts/isotopes.pl: ditto
+	* scripts/crystalstructure.rb: ditto
+
+2008-03-17 Carsten Niehaus <cniehaus@kde.org>
 	* isotopes/isotopes.xml: Remove halflifes with a value of -1
 
-2008-03-01 Daniel Leidert <daniel.leidert@wgdd.de>
+2008-03-10 Daniel Leidert <daniel.leidert@wgdd.de>
 	* COPYING: Updated copyright. Reformatting to textwidth of 80
 	characters.
 
-2008-03-01 Carsten Niehaus <cniehaus@kde.org>
+2008-03-10 Carsten Niehaus <cniehaus@kde.org>
 	* elements/elements.xml: Element 118 had a wrong nameOrigin
 	* elements/nameorigin.txt: Element 118 had a wrong nameOrigin
 

@@ -1,8 +1,6 @@
 
 EXTRA_DIST = \
-	$(crystalstructures_SRCS) \
 	$(crystalstructures_BIBXML) \
-	$(elements_SRCS) \
 	$(elements_BIBXML) \
 	$(crystal_DATA) \
 	$(element_DATA)
@@ -17,34 +15,8 @@ MAINTAINERCLEANFILES = \
 XMLLINT_FLAGS_XSD = --noout --schema $(top_srcdir)/schemas/cml25.xsd
 XMLLINT_FLAGS_SCHEMATRON = --noout --schematron $(top_srcdir)/schemas/elements.schematron
 
-crystalstructures_SRCS = \
-	crystalstructures.txt
-
 crystalstructures_BIBXML = \
 	crystalstructures.bibxml
-
-elements_SRCS = \
-	acidicbehaviour.txt \
-	blocks.txt \
-	boilingpoint.txt \
-	colors.txt \
-	crystalstructures.txt \
-	dates.txt \
-	density.txt \
-	electron-affinity.txt \
-	electroneg-pauling.txt \
-	electronic-configuration.txt \
-	exact-masses.txt \
-	family.txt \
-	groups.txt \
-	ionization.txt \
-	mass.txt \
-	meltingpoint.txt \
-	nameorigin.txt \
-	names.txt \
-	periods.txt \
-	radii-covalent.txt \
-	radii-vdw.txt
 
 elements_BIBXML = \
 	boilingpoint.bibxml \
@@ -79,13 +51,6 @@ element_DATA = elements.xml
 
 docsdir = ${docdir}/biblio
 docs_DATA = elements_biblio.html crystalstructures_biblio.html
-
-
-crystalstructures.xml : crystalstructure.rb $(crystalstructures_SRCS)
-	$< > $@
-
-elements.xml : elements.pl $(elements_SRCS)
-	$< > $@
 
 crystalstructures_biblio.bxml : $(crystalstructures_BIBXML)
 	echo "<bx:file xmlns:bx='http://bibtexml.sf.net/'>" > $@
