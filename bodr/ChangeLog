@@ -1,3 +1,7 @@
+2008-03-29 Carsten Niehaus <cniehaus@kde.org>
+	* elements/elements.xml: Remove patch from 2008-03-17 for legal
+	reasons. For details, ask me or Egon.
+
 2008-03-17 Egon Willighagen <egonw@users.sf.net>
 	* elements/*.txt: removed in favor of the .xml source
 	* isotopes/*.txt: ditto
