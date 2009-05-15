@@ -22,7 +22,7 @@
 
 <xsl:strip-space elements="*"/>
 
-<xsl:param name="verbose" value="false()"/>
+<xsl:param name="verbose" select="false()"/>
 
 <!--
  * Just catch the first table. We don't need to parse both tables,
@@ -62,24 +62,24 @@
 		                string-length(substring-before(td[4], '('))">
 
 			<xsl:call-template name="compare.AtWt.BODR.tables">
-				<xsl:with-param name="iupac.ElementNo" select="td[1]"/>
-				<xsl:with-param name="iupac.ElementSy" select="td[2]"/>
-				<xsl:with-param name="iupac.Element" select="td[3]"/>
+				<xsl:with-param name="iupac.ElementNo" select="normalize-space(td[1])"/>
+				<xsl:with-param name="iupac.ElementSy" select="normalize-space(td[2])"/>
+				<xsl:with-param name="iupac.Element" select="normalize-space(td[3])"/>
 				<xsl:with-param name="iupac.Mass"
-				                select="translate(substring-before(td[4], '('), '[]', '')"/>
+				                select="normalize-space(translate(substring-before(td[4], '('), '[]', ''))"/>
 				<xsl:with-param name="iupac.Error"
-				                select="substring-after(substring-before(td[4], ')'), '(')"/>
+				                select="normalize-space(substring-after(substring-before(td[4], ')'), '('))"/>
 			</xsl:call-template>
 
 		</xsl:when>
 		<!-- There is *no* error value. -->
 		<xsl:otherwise>
 			<xsl:call-template name="compare.AtWt.BODR.tables">
-				<xsl:with-param name="iupac.ElementNo" select="td[1]"/>
-				<xsl:with-param name="iupac.ElementSy" select="td[2]"/>
-				<xsl:with-param name="iupac.Element" select="td[3]"/>
+				<xsl:with-param name="iupac.ElementNo" select="normalize-space(td[1])"/>
+				<xsl:with-param name="iupac.ElementSy" select="normalize-space(td[2])"/>
+				<xsl:with-param name="iupac.Element" select="normalize-space(td[3])"/>
 				<xsl:with-param name="iupac.Mass"
-				                select="translate(td[4], '[]', '')"/>
+				                select="normalize-space(translate(td[4], '[]', ''))"/>
 			</xsl:call-template>
 		</xsl:otherwise>
 	</xsl:choose>
@@ -98,7 +98,7 @@
 	<xsl:param name="iupac.ElementSy"/>
 	<xsl:param name="iupac.Element"/>
 	<xsl:param name="iupac.Mass"/>
-	<xsl:param name="iupac.Error" value="false()"/>
+	<xsl:param name="iupac.Error" select="'novalue'"/>
 
 	<xsl:variable name="bodr.node"
 	              select="document('elements/elements.xml')//cml:atom[child::cml:scalar[attribute::dictRef='bo:atomicNumber']=$iupac.ElementNo]"/>
@@ -108,8 +108,16 @@
 	              select="$bodr.node/cml:label[@dictRef='bo:symbol']/@value"/>
 	<xsl:variable name="bodr.Mass"
 	              select="$bodr.node/cml:scalar[@dictRef='bo:mass']"/>
-	<xsl:variable name="bodr.Error"
-	              select="$bodr.node/cml:scalar[@dictRef='bo:mass']/@errorValue"/>
+	<xsl:variable name="bodr.Error">
+		<xsl:choose>
+			<xsl:when test="$bodr.node/cml:scalar[@dictRef='bo:mass']/@errorValue">
+				<xsl:value-of select="$bodr.node/cml:scalar[@dictRef='bo:mass']/@errorValue"/>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="'novalue'"/>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:variable>
 
 	<xsl:if test="$verbose">
 		<xsl:message>DEBUG ElementNo. <xsl:value-of select="$iupac.ElementNo"/>
@@ -132,8 +140,9 @@ element (IUPAC): <xsl:value-of select="$iupac.Element"/>
 element (BODR): <xsl:value-of select="$bodr.Element"/>
 </xsl:when>
 <xsl:when test="not($iupac.ElementSy = $bodr.ElementSy)">
-element (IUPAC): <xsl:value-of select="$iupac.ElementSy"/>
-element (BODR): <xsl:value-of select="$bodr.ElementSy"/>
+element:  <xsl:value-of select="$iupac.Element"/>
+element symbol (IUPAC): <xsl:value-of select="$iupac.ElementSy"/>
+element symbol (BODR): <xsl:value-of select="$bodr.ElementSy"/>
 </xsl:when>
 <xsl:when test="not($iupac.Mass = $bodr.Mass)">
 element:  <xsl:value-of select="$iupac.Element"/>
