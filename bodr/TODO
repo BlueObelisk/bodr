@@ -4,6 +4,7 @@ BODR 9
   against the one in http://www.chem.qmul.ac.uk/iupac/AtWt/
 - implement spell check of our database (aspell, ispell? - aspell can
   handle XML)
+- http://physics.nist.gov/cgi-bin/Compositions/stand_alone.pl?ele=&all=all&ascii=html&isotype=some
 
 BODR 8
 -----------------------------------------------------------------------
