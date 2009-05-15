@@ -55,5 +55,6 @@ AC_CONFIG_FILES([
 	isotopes/Makefile
 	schemas/Makefile
 	scripts/Makefile
+	tests/Makefile
 ])
 AC_OUTPUT
