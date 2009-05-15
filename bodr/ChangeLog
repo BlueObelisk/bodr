@@ -5,6 +5,8 @@
 	Atomic Masses table by the IUPAC (KDE #192551).
 	(Lu,Mo,Yb,Zn): Fix atomic masses accordingly to the 2007 Atomic Masses
 	table by the IUPAC (KDE #192551).
+	(F, Cl, Br, I, At, Uus): Typo fix: s/Halogene/Halogen. Thanks to Jean
+	Bréfort for catching this.
 	* tests/AtWt.xsl, tests/Makefile.am: Added a stylesheet to check the
 	atomic weights in our database against the IUPAC table. The check
 	target will do the test.

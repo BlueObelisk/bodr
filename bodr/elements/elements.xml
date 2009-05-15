@@ -248,7 +248,7 @@
     <scalar dataType="xsd:int" dictRef="bo:period">2</scalar>
     <scalar dataType="xsd:int" dictRef="bo:group">7</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">He 2s2 2p5</scalar>
-    <scalar dataType="xsd:string" dictRef="bo:family">Halogene</scalar>
+    <scalar dataType="xsd:string" dictRef="bo:family">Halogen</scalar>
   </atom>
   <atom id="Ne">
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">10</scalar>
@@ -438,7 +438,7 @@
     <scalar dataType="xsd:int" dictRef="bo:period">3</scalar>
     <scalar dataType="xsd:int" dictRef="bo:group">7</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Ne 3s2 3p5</scalar>
-    <scalar dataType="xsd:string" dictRef="bo:family">Halogene</scalar>
+    <scalar dataType="xsd:string" dictRef="bo:family">Halogen</scalar>
   </atom>
   <atom id="Ar">
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">18</scalar>
@@ -866,7 +866,7 @@
     <scalar dataType="xsd:int" dictRef="bo:period">4</scalar>
     <scalar dataType="xsd:int" dictRef="bo:group">7</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Ar 3d10 4s2 4p5</scalar>
-    <scalar dataType="xsd:string" dictRef="bo:family">Halogene</scalar>
+    <scalar dataType="xsd:string" dictRef="bo:family">Halogen</scalar>
   </atom>
   <atom id="Kr">
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">36</scalar>
@@ -1294,7 +1294,7 @@
     <scalar dataType="xsd:int" dictRef="bo:period">5</scalar>
     <scalar dataType="xsd:int" dictRef="bo:group">7</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Kr 4d10 5s2 5p5</scalar>
-    <scalar dataType="xsd:string" dictRef="bo:family">Halogene</scalar>
+    <scalar dataType="xsd:string" dictRef="bo:family">Halogen</scalar>
   </atom>
   <atom id="Xe">
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">54</scalar>
@@ -2024,7 +2024,7 @@
     <scalar dataType="xsd:int" dictRef="bo:period">6</scalar>
     <scalar dataType="xsd:int" dictRef="bo:group">7</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Xe 4f14 5d10 6s2 6p5</scalar>
-    <scalar dataType="xsd:string" dictRef="bo:family">Halogene</scalar>
+    <scalar dataType="xsd:string" dictRef="bo:family">Halogen</scalar>
   </atom>
   <atom id="Rn">
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">86</scalar>
@@ -2621,7 +2621,7 @@
     <scalar dataType="xsd:string" dictRef="bo:periodTableBlock">p</scalar>
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">0</scalar>
     <scalar dataType="xsd:int" dictRef="bo:period">7</scalar>
-    <scalar dataType="xsd:string" dictRef="bo:family">Halogene</scalar>
+    <scalar dataType="xsd:string" dictRef="bo:family">Halogen</scalar>
   </atom>
   <atom id="Uuo">
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">118</scalar>
