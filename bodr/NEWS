@@ -1,3 +1,8 @@
+Release version 9 UNRELEASED
+
+	* Atomic weights have been updated to correspond with the IUPAC table (KDE#192551).
+	* Minor bug-fixes in the elements database (KDE#192616).
+
 Release version 8 2008-03-02
 
         * Uses CML 2.5, with two tweaks: missing Rg and Ds; allow <scalar> inside <isotope>
