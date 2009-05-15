@@ -1,7 +1,7 @@
 BODR 9
 -----------------------------------------------------------------------
-- create test-sheet to check our bo:mass values against the one in
-  http://www.chem.qmul.ac.uk/iupac/AtWt/
+- create test-sheet to check our bo:mass values (including the error-values)
+  against the one in http://www.chem.qmul.ac.uk/iupac/AtWt/
 - implement spell check of our database (aspell, ispell? - aspell can
   handle XML)
 
