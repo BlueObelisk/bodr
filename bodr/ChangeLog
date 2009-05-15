@@ -1,3 +1,11 @@
+2009-05-15 Daniel Leidert <daniel.leidert@wgdd.de>
+	* elements/elements.xml (Cm): Fixed electronic configuration (KDE
+	#192616).
+	(Bh,Db,Hs,Mt,Rf,Rg,Sg,UUh): Fix atom weights accordingly to the 2005
+	Atomic Masses table by the IUPAC (KDE #192551).
+	(Lu,Mo,Yb,Zn): Fix atomic masses accordingly to the 2007 Atomic Masses
+	table by the IUPAC (KDE #192551).
+
 2008-03-29 Carsten Niehaus <cniehaus@kde.org>
 	* elements/elements.xml: Remove patch from 2008-03-17 for legal
 	reasons. For details, ask me or Egon.
@@ -30,14 +38,14 @@
 2008-03-01 Egon Willighagen <egonw@users.sf.net>
 	* NEWS: BODR 7 released, made place for BODR 8 changes
 	* schemas/cml23.xsd, cml25.xsd: Replaced CML 2.3 with CML 2.5
-          (closes SF bug #1905374)
+	  (closes SF bug #1905374)
 
 2008-03-01 Egon Willighagen <egonw@users.sf.net>
 	* ChangeLog: Fixed Carsten's name
 
 2008-03-01 Egon Willighagen <egonw@users.sf.net>
 	* NEWS: Making a release
-        * TODO: Updated
+	* TODO: Updated
 
 2008-02-18 Daniel Leidert <daniel.leidert@wgdd.de>
 	* scripts/elements.pl: Make sure that values exist for mass and
@@ -130,14 +138,14 @@
 	(`make distcheck' errors).
 
 2006-12-29 Egon Willighagen <egonw@users.sf.net>
-        * scripts/elements.pl: Do not output acidity information, as source cannot
-          be validated (closes SourceForge bug #1603066)
-        * elements/family.txt: The actinoids are no longer listed as rare earths
-          but as 'other metal' (closes SourceForge bug #1603063)
+	* scripts/elements.pl: Do not output acidity information, as source cannot
+	  be validated (closes SourceForge bug #1603066)
+	* elements/family.txt: The actinoids are no longer listed as rare earths
+	  but as 'other metal' (closes SourceForge bug #1603063)
 
 2006-10-16 Egon Willighagen <egonw@users.sf.net>
-        * configure.ac, Makefile.am: added dicts subdir
-        * dicts/Makefile.am: install the BO dictionary
+	* configure.ac, Makefile.am: added dicts subdir
+	* dicts/Makefile.am: install the BO dictionary
 
 2006-10-15 Jean Brefort  <jean.brefort@normalesup.org>
 	* configure.ac: enable xmllint test.
@@ -146,11 +154,11 @@
 	* isotopes/Makefile.am: make check-local works.
 
 2006-10-15 Egon Willighagen <egonw@users.sf.net>
-        * scripts/elements.pl: Tidied up Perl code
-        * scripts/elements.pl: Disabled density which is not an element property
-        * schema/elements.schematron, elements/Makefile.am: Extra validation
-        * schema/isotopes.schematron, isotopes/Makefile.am: Extra validation
-        * scripts/isotopes.pl: Do not create an entry for Xx
+	* scripts/elements.pl: Tidied up Perl code
+	* scripts/elements.pl: Disabled density which is not an element property
+	* schema/elements.schematron, elements/Makefile.am: Extra validation
+	* schema/isotopes.schematron, isotopes/Makefile.am: Extra validation
+	* scripts/isotopes.pl: Do not create an entry for Xx
 
 2006-09-02 Carsten Niehaus <cniehaus@kde.org>
 	* elements/elements.xml: Refreshed
@@ -180,18 +188,18 @@
 	* elements/dates.txt: Add the second name of K. W. Scheele to Chlorine
 
 2006-08-15 Carsten Niehaus <cniehaus@kde.org>
-    * elements/crystalstrutures.txt: Make Si ccp as that is the same as fcc
+	* elements/crystalstrutures.txt: Make Si ccp as that is the same as fcc
 
-    * elements/crystalstrutures.txt: Make Mn sc (simple cubic)
+	* elements/crystalstrutures.txt: Make Mn sc (simple cubic)
 
-    * scripts/crystalstrutures.rb: Remove the check for fcc as it is no longer needed
-    
-    * scripts/crystalstrutures.rb: Add check for simple cubic
-    
-    * scripts/crystalstrutures.rb: Fix title=""-generation (we had "b" twice)
+	* scripts/crystalstrutures.rb: Remove the check for fcc as it is no longer needed
+
+	* scripts/crystalstrutures.rb: Add check for simple cubic
+
+	* scripts/crystalstrutures.rb: Fix title=""-generation (we had "b" twice)
 
 2006-08-15 Carsten Niehaus <cniehaus@kde.org>
-    * elements/crystalstrutures.xml: Improve the id to be SymbolNumber
+	* elements/crystalstrutures.xml: Improve the id to be SymbolNumber
 
 2006-06-07 Daniel Leidert <daniel.leidert.spam@gmx.net>
 
@@ -263,21 +271,21 @@
 
 2006-06-07 Egon Willighagen <ewilligh@uni-koeln-de>
 
-        * scripts/elements.pl: added Dublic Core license note
+	* scripts/elements.pl: added Dublic Core license note
 
 	* scripts/isotopes.pl: likewise
 
 2006-06-07 Egon Willighagen <ewilligh@uni-koeln-de>
 
-        * Makefile.am: added THANKS
+	* Makefile.am: added THANKS
 
 2006-06-07 Egon Willighagen <ewilligh@uni-koeln-de>
 
-        * THANKS: added Daniel Leidert
+	* THANKS: added Daniel Leidert
 
 2006-06-07 Egon Willighagen <ewilligh@uni-koeln-de>
 
-        * INSTALL: fixed program title
+	* INSTALL: fixed program title
 
 2006-06-07 Daniel Leidert <daniel.leidert.spam@gmx.net>
 
