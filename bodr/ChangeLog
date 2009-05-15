@@ -1,10 +1,8 @@
 2009-05-15 Daniel Leidert <daniel.leidert@wgdd.de>
 	* elements/elements.xml (Cm): Fixed electronic configuration (KDE
 	#192616).
-	(Bh,Db,Hs,Mt,Rf,Rg,Sg,UUh): Fix atom weights accordingly to the 2005
-	Atomic Masses table by the IUPAC (KDE #192551).
-	(Lu,Mo,Yb,Zn): Fix atomic masses accordingly to the 2007 Atomic Masses
-	table by the IUPAC (KDE #192551).
+	(Bh,Db,Hs,Lu,Mo,Mt,Ni,Rf,Rg,Sg,UUh,Yb,Zn): Fix atom weights accordingly
+	to the 2007 Atomic Masses table by the IUPAC (KDE #192551).
 	(F, Cl, Br, I, At, Uus): Typo fix: s/Halogene/Halogen. Thanks to Jean
 	Bréfort for catching this.
 	* tests/AtWt.xsl, tests/Makefile.am: Added a stylesheet to check the
