@@ -616,7 +616,7 @@
     <scalar dataType="xsd:float" dictRef="bo:ionization" units="units:ev">7.4340</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronAffinity" units="units:ev">0</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronegativityPauling" units="boUnits:paulingScaleUnit">1.55</scalar>
-    <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">It was discovered near a town named Magnesia in a black earth. Thus. it was named 'magnesia nigra'. short: Manganese</scalar>
+    <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">It was discovered near a town named Magnesia in black earth. Thus, it was named 'magnesia nigra', or for short, Manganese.</scalar>
     <scalar dataType="xsd:float" dictRef="bo:radiusCovalent" units="units:ang">1.39</scalar>
     <scalar dataType="xsd:float" dictRef="bo:radiusVDW" units="units:ang">2.05</scalar>
     <array title="color" dictRef="bo:elementColor" size="3" dataType="xsd:float">0.61 0.48 0.78</array>
@@ -734,7 +734,7 @@
     <scalar dataType="xsd:float" dictRef="bo:ionization" units="units:ev">9.3942</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronAffinity" units="units:ev">0</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronegativityPauling" units="boUnits:paulingScaleUnit">1.65</scalar>
-    <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">German 'zinking' for 'rough'. because zinc ore is very rough</scalar>
+    <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">German 'zinking' for 'rough', because zinc ore is very rough</scalar>
     <scalar dataType="xsd:float" dictRef="bo:radiusCovalent" units="units:ang">1.31</scalar>
     <scalar dataType="xsd:float" dictRef="bo:radiusVDW" units="units:ang">2.1</scalar>
     <array title="color" dictRef="bo:elementColor" size="3" dataType="xsd:float">0.49 0.50 0.69</array>
@@ -997,7 +997,7 @@
     <scalar dataType="xsd:float" dictRef="bo:ionization" units="units:ev">6.7589</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronAffinity" units="units:ev" errorValue="25">0.893</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronegativityPauling" units="boUnits:paulingScaleUnit">1.6</scalar>
-    <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Named after Niobe. the daughter of the Greek god Tantalus</scalar>
+    <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Named after Niobe, the daughter of the Greek god Tantalus.</scalar>
     <scalar dataType="xsd:float" dictRef="bo:radiusCovalent" units="units:ang">1.37</scalar>
     <scalar dataType="xsd:float" dictRef="bo:radiusVDW" units="units:ang">2.15</scalar>
     <array title="color" dictRef="bo:elementColor" size="3" dataType="xsd:float">0.45 0.76 0.79</array>
@@ -1281,7 +1281,7 @@
     <scalar dataType="xsd:float" dictRef="bo:ionization" units="units:ev">10.4513</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronAffinity" units="units:ev" errorValue="10">3.059038</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronegativityPauling" units="boUnits:paulingScaleUnit">2.66</scalar>
-    <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Greek 'ioeides' for 'violett'</scalar>
+    <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Greek 'ioeides' for 'violet'.</scalar>
     <scalar dataType="xsd:float" dictRef="bo:radiusCovalent" units="units:ang">1.33</scalar>
     <scalar dataType="xsd:float" dictRef="bo:radiusVDW" units="units:ang">2.1</scalar>
     <array title="color" dictRef="bo:elementColor" size="3" dataType="xsd:float">0.58 0.00 0.58</array>
@@ -1329,7 +1329,7 @@
     <scalar dataType="xsd:float" dictRef="bo:ionization" units="units:ev">3.8939</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronAffinity" units="units:ev" errorValue="25">0.471626</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronegativityPauling" units="boUnits:paulingScaleUnit">0.79</scalar>
-    <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Latin 'caesius' for 'heavenblue'</scalar>
+    <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Latin 'caesius' for 'heaven blue'</scalar>
     <scalar dataType="xsd:float" dictRef="bo:radiusCovalent" units="units:ang">2.25</scalar>
     <scalar dataType="xsd:float" dictRef="bo:radiusVDW" units="units:ang">3</scalar>
     <array title="color" dictRef="bo:elementColor" size="3" dataType="xsd:float">0.34 0.09 0.56</array>
@@ -1377,7 +1377,7 @@
     <scalar dataType="xsd:float" dictRef="bo:ionization" units="units:ev">5.5769</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronAffinity" units="units:ev" errorValue="2">0.47</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronegativityPauling" units="boUnits:paulingScaleUnit">1.10</scalar>
-    <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Greek 'lanthanein' for 'hidden'. The Lanthanoids are also called the 'rare earth'</scalar>
+    <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Greek 'lanthanein' for 'hidden'. The Lanthanoids are also called the 'rare earth' elements.</scalar>
     <scalar dataType="xsd:float" dictRef="bo:radiusCovalent" units="units:ang">1.69</scalar>
     <scalar dataType="xsd:float" dictRef="bo:radiusVDW" units="units:ang">2.5</scalar>
     <array title="color" dictRef="bo:elementColor" size="3" dataType="xsd:float">0.44 0.83 1.00</array>
