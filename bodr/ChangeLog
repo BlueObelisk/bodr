@@ -1,3 +1,8 @@
+2009-05-16 Daniel Leidert <daniel.leidert@wgdd.de>
+	* elements/elements.xml (Uuo): Removed boiling point (unknown; just a
+	predicted at 320-380K). Fixed discovery date - discovered in 2002 and
+	2005 but published 2006 (KDE #192478).
+
 2009-05-15 Daniel Leidert <daniel.leidert@wgdd.de>
 	* elements/elements.xml (Cm): Fixed electronic configuration (KDE
 	#192616).

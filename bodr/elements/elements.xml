@@ -2630,10 +2630,9 @@
     <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">294</scalar>
     <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Historically known as eka-radon, eka-emanation before 1960. Ununoctium is a temporary IUPAC systematic element name.</scalar>
     <array title="color" dictRef="bo:elementColor" size="3" dataType="xsd:float">1.00 0.00 0.06</array>
-    <scalar dataType="xsd:float" dictRef="bo:boilingpoint"  units="siUnits:kelvin">250</scalar>
     <scalar dataType="xsd:string" dictRef="bo:periodTableBlock">p</scalar>
     <array dataType="xsd:string" delimiter="," size="2" dictRef="bo:discoveryCountry">ru,us</array>
-    <scalar dataType="xsd:date" dictRef="bo:discoveryDate">2006</scalar>
+    <scalar dataType="xsd:date" dictRef="bo:discoveryDate">2002</scalar>
     <array dataType="xsd:string" delimiter=";" size="2" dictRef="bo:discoverers">Russian scientists at Dubna (JINR);American scientists at the Lawrence Livermore National Laboratory.</array>
     <scalar dataType="xsd:int" dictRef="bo:period">7</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Noblegas</scalar>
