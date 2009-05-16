@@ -1,3 +1,8 @@
+2009-05-16 Carsten Niehaus <cniehaus@kde.org>
+	* elements/elements.xml: Synced elements.xml with the copy in Kalziums
+	code repository. There it was spellchecked and several language issues
+	have been found
+
 2009-05-16 Daniel Leidert <daniel.leidert@wgdd.de>
 	* elements/elements.xml (Uuo): Removed boiling point (unknown; just a
 	predicted at 320-380K). Fixed discovery date - discovered in 2002 and
