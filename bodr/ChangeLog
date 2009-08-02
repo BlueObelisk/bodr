@@ -1,3 +1,6 @@
+2009-08-02  Jean Brefort  <jean.brefort@normalesup.org>
+	* crystal/space-groups.xml: fixed group 229.
+
 2009-05-16 Carsten Niehaus <cniehaus@kde.org>
 	* elements/elements.xml: Synced elements.xml with the copy in Kalziums
 	code repository. There it was spellchecked and several language issues
