@@ -2,6 +2,7 @@ Release version 9 UNRELEASED
 
 	* Atomic weights have been updated to correspond with the IUPAC table (KDE#192551).
 	* Minor bug-fixes in the elements database (KDE#192616).
+        * Fix in the space group table
 
 Release version 8 2008-03-02
 
