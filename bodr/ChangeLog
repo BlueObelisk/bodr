@@ -1,6 +1,8 @@
 2010-04-25  Egon Willighagen  <egonw@users.sf.net>
 	* elements/elements.xml: Added IUPAC accept name for element 112.
 	(KDE #235313)
+	* elements/elements.xml: Updates mass of H2 to current value from
+        webelements.com
 
 2009-08-02  Jean Brefort  <jean.brefort@normalesup.org>
 	* crystal/space-groups.xml: fixed group 229.

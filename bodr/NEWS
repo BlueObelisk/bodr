@@ -4,6 +4,7 @@ Release version 9 UNRELEASED
 	* Minor bug-fixes in the elements database (KDE#192616).
         * Fix in the space group table.
         * Added name for element 112: copernicum (KDE#235313).
+        * Updated mass of H2 to current value from webelements.com (closes #2989934 on sf.net)
 
 Release version 8 2008-03-02
 
