@@ -1,4 +1,4 @@
-Release version 9 UNRELEASED
+Release version 9 2010-04-25
 
 	* Atomic weights have been updated to correspond with the IUPAC table (KDE#192551).
 	* Minor bug-fixes in the elements database (KDE#192616).
