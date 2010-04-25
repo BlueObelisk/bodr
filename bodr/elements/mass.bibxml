@@ -1,18 +1,22 @@
 <bx:entry>
   <bx:article>
+    <bx:title>Atomic weights of the elements 2005 (IUPAC Technical Report)</bx:title>
     <bx:authors>Wieser, M.E.</bx:authors>
     <bx:journal>Pure Appl. Chem.</bx:journal>
     <bx:year>2006</bx:year>
     <bx:volume>78</bx:volume>
     <bx:number>11</bx:number>
-    <bx:pages>2051-2006</bx:pages>
+    <bx:pages>2051-2066</bx:pages>
   </bx:article>
 </bx:entry>
 <bx:entry>
   <bx:article>
+    <bx:title>Atomic weights of the elements 2001 (IUPAC Technical Report)</bx:title>
+    <bx:author>Loss, R.D.</bx:author>
     <bx:journal>Pure Appl. Chem.</bx:journal>
-    <bx:year>75</bx:year>
-    <bx:volume>76</bx:volume>
+    <bx:year>2003</bx:year>
+    <bx:volume>75</bx:volume>
+    <bx:number>8</bx:number>
     <bx:pages>1107-1122</bx:pages>
   </bx:article>
 </bx:entry>
