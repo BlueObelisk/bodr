@@ -2537,10 +2537,10 @@
     <scalar dataType="xsd:int" dictRef="bo:group">1</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Transition</scalar>
   </atom>
-  <atom id="Uub">
+  <atom id="Cn">
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">112</scalar>
-    <label dictRef="bo:symbol" value="Uub" />
-    <label dictRef="bo:name" xml:lang="en" value="Ununbium" />
+    <label dictRef="bo:symbol" value="Cn" />
+    <label dictRef="bo:name" xml:lang="en" value="Copernicium" />
     <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">285</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">285.17411</scalar>
     <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Historically known as eka-mercury. Ununbium is a temporary IUPAC systematic element name.</scalar>

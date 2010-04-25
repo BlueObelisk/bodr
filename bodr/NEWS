@@ -2,7 +2,8 @@ Release version 9 UNRELEASED
 
 	* Atomic weights have been updated to correspond with the IUPAC table (KDE#192551).
 	* Minor bug-fixes in the elements database (KDE#192616).
-        * Fix in the space group table
+        * Fix in the space group table.
+        * Added name for element 112: copernicum (KDE#235313).
 
 Release version 8 2008-03-02
 
