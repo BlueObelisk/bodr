@@ -2406,7 +2406,7 @@
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">104</scalar>
     <label dictRef="bo:symbol" value="Rf" />
     <label dictRef="bo:name" xml:lang="en" value="Rutherfordium" />
-    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">267</scalar>
+    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">265</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">261.10877</scalar>
     <scalar dataType="xsd:float" dictRef="bo:ionization" units="units:ev">6.0</scalar>
     <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Named after the scientist Ernest Rutherford</scalar>
