@@ -5963,7 +5963,7 @@ y	-x	z
   <transform>1/2-y,1/2+z,1/2+x</transform>
   <transform>1/2+y,1/2+z,1/2-x</transform>
 </group>
-<group id="205" HM="P a -3" Hall="P 2ac 2ab 3">
+<group id="205" HM="P a -3" Hall="-P 2ac 2ab 3">
   <transform>x,y,z</transform>
   <transform>1/2-x,-y,1/2+z</transform>
   <transform>-x,1/2+y,1/2-z</transform>
