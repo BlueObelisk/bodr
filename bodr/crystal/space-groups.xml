@@ -1741,7 +1741,7 @@
   <transform>x,-y,z</transform>
   <transform>-x,y,z</transform>
 </group>
-<group id="48" HM="P n n n" Hall="P 2 2 -1n">
+<group id="48" HM="P n n n:1" Hall="P 2 2 -1n">
   <transform>x,y,z</transform>
   <transform>-x,-y,z</transform>
   <transform>-x,y,-z</transform>
@@ -1981,7 +1981,7 @@
   <transform>1/2+x,-y,1/2+z</transform>
   <transform>-x,y,z</transform>
 </group>
-<group id="53:" HM="P n m b" Hall="-P 2bc 2bc">
+<group id="53" HM="P n m b" Hall="-P 2bc 2bc">
   <transform>x,y,z</transform>
   <transform>-x,1/2-y,1/2+z</transform>
   <transform>x,1/2-y,1/2-z</transform>
