@@ -3,9 +3,65 @@
 <group id="1" HM="P 1" Hall="P 1">
   <transform>x,y,z</transform>
 </group>
+<group id="1" HM="A 1" Hall="A 1">
+  <transform>x,y,z</transform>
+  <transform>x,1/2+y,1/2+z</transform>
+</group>
+<group id="1" HM="B 1" Hall="B 1">
+  <transform>x,y,z</transform>
+  <transform>1/2+x,y,1/2+z</transform>
+</group>
+<group id="1" HM="C 1" Hall="C 1">
+  <transform>x,y,z</transform>
+  <transform>1/2+x,1/2+y,z</transform>
+</group>
+<group id="1" HM="F 1" Hall="F 1">
+  <transform>x,y,z</transform>
+  <transform>x,1/2+y,1/2+z</transform>
+  <transform>1/2+x,y,1/2+z</transform>
+  <transform>1/2+x,1/2+y,z</transform>
+</group>
+<group id="1" HM="I 1" Hall="I 1">
+  <transform>x,y,z</transform>
+  <transform>1/2+x,1/2+y,1/2+z</transform>
+</group>
 <group id="2" HM="P -1" Hall="-P 1">
   <transform>x,y,z</transform>
   <transform>-x,-y,-z</transform>
+</group>
+<group id="2" HM="A -1" Hall="-A 1">
+  <transform>x,y,z</transform>
+  <transform>x,1/2+y,1/2+z</transform>
+  <transform>-x,-y,-z</transform>
+  <transform>-x,1/2-y,1/2-z</transform>
+</group>
+<group id="2" HM="B -1" Hall="-B 1">
+  <transform>x,y,z</transform>
+  <transform>1/2+x,y,1/2+z</transform>
+  <transform>-x,-y,-z</transform>
+  <transform>1/2-x,-y,1/2-z</transform>
+</group>
+<group id="2" HM="C -1" Hall="-C 1">
+  <transform>x,y,z</transform>
+  <transform>1/2+x,1/2+y,z</transform>
+  <transform>-x,-y,-z</transform>
+  <transform>1/2-x,1/2-y,-z</transform>
+</group>
+<group id="2" HM="F -1" Hall="-F 1">
+  <transform>x,y,z</transform>
+  <transform>x,1/2+y,1/2+z</transform>
+  <transform>1/2+x,y,1/2+z</transform>
+  <transform>1/2+x,1/2+y,z</transform>
+  <transform>-x,-y,-z</transform>
+  <transform>-x,1/2-y,1/2-z</transform>
+  <transform>1/2-x,-y,1/2-z</transform>
+  <transform>1/2-x,1/2-y,-z</transform>
+</group>
+<group id="2" HM="I -1" Hall="-I 1">
+  <transform>x,y,z</transform>
+  <transform>1/2+x,1/2+y,1/2+z</transform>
+  <transform>-x,-y,-z</transform>
+  <transform>1/2-x,1/2-y,1/2-z</transform>
 </group>
 <group id="3" HMs="P 2" HM="P 1 2 1" Hall="P 2y">
   <transform>x,y,z</transform>
