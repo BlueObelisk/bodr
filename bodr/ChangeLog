@@ -1,3 +1,6 @@
+2012-05-02 Daniel Leidert <daniel.leidert@wgdd.de>
+	* elements/elements.xml: Fixed description for Copernicium.
+
 2010-05-04  Jean Brefort  <jean.brefort@normalesup.org>
 	* crystal/space-groups.xml: fixed Hall name for group 205.
 
