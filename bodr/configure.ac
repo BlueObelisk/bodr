@@ -16,6 +16,9 @@ AC_PROG_INSTALL
 
 MP_PROG_XMLLINT
 MP_PROG_XSLTPROC
+if test -z $XSLTPROC ; then
+	AC_MSG_ERROR([Missing xsltproc!]) ;
+fi
 AC_PATH_PROG([PERL], [perl])
 if test -z $PERL ; then
 	AC_MSG_WARN([Missing Perl could prevent distributed perl scripts from running!]) ;
