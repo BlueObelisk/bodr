@@ -14177,6 +14177,7 @@
 	<isotope id="Th209" number="209" elementType="Th">
 		<scalar dictRef="bo:exactMass" errorValue="110E-6">209.01772</scalar>
 		<scalar dictRef="bo:atomicNumber">90</scalar>
+		<scalar dictRef="bo:halfLife" units="siUnits:s">0.0038</scalar>
 	</isotope>
 	<isotope id="Th210" number="210" elementType="Th">
 		<scalar dictRef="bo:exactMass" errorValue="27E-6">210.015075</scalar>
@@ -14343,6 +14344,7 @@
 	<isotope id="Th238" number="238" elementType="Th">
 		<scalar dictRef="bo:exactMass" errorValue="300E-6">238.0565</scalar>
 		<scalar dictRef="bo:atomicNumber">90</scalar>
+		<scalar dictRef="bo:halfLife" units="siUnits:s">564</scalar>
 	</isotope>
 </isotopeList>
 <isotopeList id="Pa">
