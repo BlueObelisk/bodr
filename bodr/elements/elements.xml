@@ -2502,7 +2502,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1982</scalar>
     <array dataType="xsd:string" delimiter=";" size="3" dictRef="bo:discoverers">Peter Armbruster;Gottfried Münzenber;et al.</array>
     <scalar dataType="xsd:int" dictRef="bo:period">7</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">8</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">9</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Transition</scalar>
   </atom>
   <atom id="Ds">
@@ -2518,7 +2518,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1994</scalar>
     <array dataType="xsd:string" delimiter=";" size="8" dictRef="bo:discoverers">S. Hofmann;V. Ninov;F. P. Hessberger;P. Armbruster;H. Folger;G. Münzenberg;H. J. Schött;et al.</array>
     <scalar dataType="xsd:int" dictRef="bo:period">7</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">8</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">10</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Transition</scalar>
   </atom>
   <atom id="Rg">
