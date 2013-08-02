@@ -1,3 +1,13 @@
+2013-08-02 Egon Willighagen  <egonw@users.sf.net>
+	* in agreement with the following email, changed the license to CCZero:
+		Date: Thu, 26 Jan 2012 21:21:28 +0100
+		Delivered-To: egon.willighagen@gmail.com
+		Message-ID: <CAMPqvY_UAdK6a2bkNe37y_HQJ+aHZwa8G=gQvW1BKAt81xaGBw@mail.gmail.com>
+		Subject: BODR relicensing to CCZero
+		From: Egon Willighagen <egon.willighagen@gmail.com>
+		To: BlueObelisk-Discuss <Blueobelisk-discuss@lists.sourceforge.net>
+		Content-Type: text/plain; charset=ISO-8859-1
+
 2012-05-02 Daniel Leidert <daniel.leidert@wgdd.de>
 	* elements/elements.xml: Fixed description for Copernicium.
 
