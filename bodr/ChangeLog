@@ -1,7 +1,7 @@
 2013-08-02 Egon Willighagen  <egonw@users.sf.net>
 	* elements/elements.xml: Fixed the groups of Ds and Mt
-        * elements:elements.xml|symbols.bibxml: Lv and Fl got official names
-	* in agreement with the following email, changed the license to CCZero:
+	* elements/elements.xml|symbols.bibxml: Lv and Fl got official names
+	* README, COPYING: in agreement with the following email, changed the license to CCZero:
 		Date: Thu, 26 Jan 2012 21:21:28 +0100
 		Delivered-To: egon.willighagen@gmail.com
 		Message-ID: <CAMPqvY_UAdK6a2bkNe37y_HQJ+aHZwa8G=gQvW1BKAt81xaGBw@mail.gmail.com>
