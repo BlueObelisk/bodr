@@ -1,4 +1,5 @@
 2013-08-02 Egon Willighagen  <egonw@users.sf.net>
+	* INSTALL: typo fix 'applcations'
 	* elements/elements.xml: Fixed the groups of Ds and Mt
 	* elements/elements.xml|symbols.bibxml: Lv and Fl got official names
 	* README, COPYING: in agreement with the following email, changed the license to CCZero:
