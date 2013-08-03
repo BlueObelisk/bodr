@@ -1,3 +1,10 @@
 Makefile
 Makefile.in
 *~
+*_biblio.html
+*_biblio.bxml
+autom4te.cache/
+configure
+install-sh
+missing
+aclocal.m4
