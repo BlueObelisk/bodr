@@ -28,8 +28,10 @@
  * Just catch the first table. We don't need to parse both tables,
  * which just differ in order.
 -->
+<!-- Table 2007: /descendant::table[1]-->
+<!-- Table 2011: /descendant::table[2]-->
 <xsl:template match="/">
-	<xsl:apply-templates select="/descendant::table[1]"/>
+	<xsl:apply-templates select="/descendant::table[3]"/>
 </xsl:template>
 
 <!--
@@ -64,7 +66,7 @@
 			<xsl:call-template name="compare.AtWt.BODR.tables">
 				<xsl:with-param name="iupac.ElementNo" select="normalize-space(td[1])"/>
 				<xsl:with-param name="iupac.ElementSy" select="normalize-space(td[2])"/>
-				<xsl:with-param name="iupac.Element" select="normalize-space(td[3])"/>
+				<xsl:with-param name="iupac.Element" select="normalize-space(translate(td[3],'&#x00A0;',' '))"/>
 				<xsl:with-param name="iupac.Mass"
 				                select="normalize-space(translate(substring-before(td[4], '('), '[]', ''))"/>
 				<xsl:with-param name="iupac.Error"
@@ -77,7 +79,7 @@
 			<xsl:call-template name="compare.AtWt.BODR.tables">
 				<xsl:with-param name="iupac.ElementNo" select="normalize-space(td[1])"/>
 				<xsl:with-param name="iupac.ElementSy" select="normalize-space(td[2])"/>
-				<xsl:with-param name="iupac.Element" select="normalize-space(td[3])"/>
+				<xsl:with-param name="iupac.Element" select="normalize-space(translate(td[3],'&#x00A0;',' '))"/>
 				<xsl:with-param name="iupac.Mass"
 				                select="normalize-space(translate(td[4], '[]', ''))"/>
 			</xsl:call-template>
@@ -132,7 +134,7 @@
 	              or not($iupac.ElementSy = $bodr.ElementSy)
 	              or not($iupac.Mass = $bodr.Mass)
 	              or not($iupac.Error = $bodr.Error)">
-		<xsl:message terminate="yes">
+		<xsl:message terminate="no">
 ERROR: We differ from the IUPAC AtWt table.
 <xsl:choose>
 <xsl:when test="not($iupac.Element = $bodr.Element)">

@@ -1,6 +1,10 @@
 2013-08-06 Daniel Leidert <daniel.leidert@wgdd.de>
 	* elements/elements.xml: Changed atom IDs of Lv and Fl and their
-	  name histories.
+	  name histories. Fixed all atomic masses accordingly to the latest
+	  publication of the IUPAC.
+	* elements/mass.bibxml: Added latest atomic table publication.
+	* tests/AtWt.xsl: Fixed handling of non-breaking spaces and the
+	  latest IUPAC website.
 
 2013-08-02 Egon Willighagen  <egonw@users.sf.net>
 	* isotopes/isotopes.*: Added the half-lives of 209Th and 238Th (fixes #9)

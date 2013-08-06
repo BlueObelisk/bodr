@@ -40,7 +40,7 @@
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">1</scalar>
     <label dictRef="bo:symbol" value="H" />
     <label dictRef="bo:name" xml:lang="en" value="Hydrogen" />
-    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass" errorValue="7">1.00794</scalar>
+    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">1.008</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">1.007825032</scalar>
     <scalar dataType="xsd:float" dictRef="bo:ionization" units="units:ev">13.5984</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronAffinity" units="units:ev" errorValue="3">0.75420375</scalar>
@@ -87,7 +87,7 @@
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">3</scalar>
     <label dictRef="bo:symbol" value="Li" />
     <label dictRef="bo:name" xml:lang="en" value="Lithium" />
-    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass" errorValue="2">6.941</scalar>
+    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">6.94</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">7.01600455</scalar>
     <scalar dataType="xsd:float" dictRef="bo:ionization" units="units:ev">5.3917</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronAffinity" units="units:ev" errorValue="21">0.618049</scalar>
@@ -135,7 +135,7 @@
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">5</scalar>
     <label dictRef="bo:symbol" value="B" />
     <label dictRef="bo:name" xml:lang="en" value="Boron" />
-    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass" errorValue="7">10.811</scalar>
+    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">10.81</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">11.0093054</scalar>
     <scalar dataType="xsd:float" dictRef="bo:ionization" units="units:ev">8.2980</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronAffinity" units="units:ev" errorValue="25">0.279723</scalar>
@@ -159,7 +159,7 @@
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">6</scalar>
     <label dictRef="bo:symbol" value="C" />
     <label dictRef="bo:name" xml:lang="en" value="Carbon" />
-    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass" errorValue="8">12.0107</scalar>
+    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">12.011</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">12</scalar>
     <scalar dataType="xsd:float" dictRef="bo:ionization" units="units:ev">11.2603</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronAffinity" units="units:ev" errorValue="20">1.262118</scalar>
@@ -182,7 +182,7 @@
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">7</scalar>
     <label dictRef="bo:symbol" value="N" />
     <label dictRef="bo:name" xml:lang="en" value="Nitrogen" />
-    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass" errorValue="2">14.0067</scalar>
+    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">14.007</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">14.003074</scalar>
     <scalar dataType="xsd:float" dictRef="bo:ionization" units="units:ev">14.5341</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronAffinity" units="units:ev" errorValue="2">-0.07</scalar>
@@ -206,7 +206,7 @@
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">8</scalar>
     <label dictRef="bo:symbol" value="O" />
     <label dictRef="bo:name" xml:lang="en" value="Oxygen" />
-    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass" errorValue="3">15.9994</scalar>
+    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">15.999</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">15.99491462</scalar>
     <scalar dataType="xsd:float" dictRef="bo:ionization" units="units:ev">13.6181</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronAffinity" units="units:ev" errorValue="27">1.4611120</scalar>
@@ -301,7 +301,7 @@
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">12</scalar>
     <label dictRef="bo:symbol" value="Mg" />
     <label dictRef="bo:name" xml:lang="en" value="Magnesium" />
-    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass" errorValue="6">24.3050</scalar>
+    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">24.305</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">23.9850417</scalar>
     <scalar dataType="xsd:float" dictRef="bo:ionization" units="units:ev">7.6462</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronAffinity" units="units:ev">0</scalar>
@@ -349,7 +349,7 @@
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">14</scalar>
     <label dictRef="bo:symbol" value="Si" />
     <label dictRef="bo:name" xml:lang="en" value="Silicon" />
-    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass" errorValue="3">28.0855</scalar>
+    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">28.085</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">27.97692653</scalar>
     <scalar dataType="xsd:float" dictRef="bo:ionization" units="units:ev">8.1517</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronAffinity" units="units:ev" errorValue="20">1.389521</scalar>
@@ -397,7 +397,7 @@
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">16</scalar>
     <label dictRef="bo:symbol" value="S" />
     <label dictRef="bo:name" xml:lang="en" value="Sulfur" />
-    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass" errorValue="5">32.065</scalar>
+    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">32.06</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">31.972071</scalar>
     <scalar dataType="xsd:float" dictRef="bo:ionization" units="units:ev">10.3600</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronAffinity" units="units:ev" errorValue="10">2.0771029</scalar>
@@ -420,7 +420,7 @@
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">17</scalar>
     <label dictRef="bo:symbol" value="Cl" />
     <label dictRef="bo:name" xml:lang="en" value="Chlorine" />
-    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass" errorValue="2">35.453</scalar>
+    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">35.45</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">34.96885268</scalar>
     <scalar dataType="xsd:float" dictRef="bo:ionization" units="units:ev">12.9676</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronAffinity" units="units:ev" errorValue="27">3.612724</scalar>
@@ -777,7 +777,7 @@
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">32</scalar>
     <label dictRef="bo:symbol" value="Ge" />
     <label dictRef="bo:name" xml:lang="en" value="Germanium" />
-    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass" errorValue="1">72.64</scalar>
+    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass" errorValue="8">72.630</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">73.9211778</scalar>
     <scalar dataType="xsd:float" dictRef="bo:ionization" units="units:ev">7.8994</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronAffinity" units="units:ev" errorValue="15">1.232712</scalar>
@@ -848,7 +848,7 @@
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">35</scalar>
     <label dictRef="bo:symbol" value="Br" />
     <label dictRef="bo:name" xml:lang="en" value="Bromine" />
-    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass" errorValue="1">79.904</scalar>
+    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">79.904</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">78.9183371</scalar>
     <scalar dataType="xsd:float" dictRef="bo:ionization" units="units:ev">11.8138</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronAffinity" units="units:ev" errorValue="20">3.3635880</scalar>
@@ -1040,7 +1040,7 @@
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">43</scalar>
     <label dictRef="bo:symbol" value="Tc" />
     <label dictRef="bo:name" xml:lang="en" value="Technetium" />
-    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">98</scalar>
+    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">97</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">97.907216</scalar>
     <scalar dataType="xsd:float" dictRef="bo:ionization" units="units:ev">7.28</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronAffinity" units="units:ev" errorValue="20">0.55</scalar>
@@ -1182,7 +1182,7 @@
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">49</scalar>
     <label dictRef="bo:symbol" value="In" />
     <label dictRef="bo:name" xml:lang="en" value="Indium" />
-    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass" errorValue="3">114.818</scalar>
+    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass" errorValue="1">114.818</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">114.903878</scalar>
     <scalar dataType="xsd:float" dictRef="bo:ionization" units="units:ev">5.7864</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronAffinity" units="units:ev" errorValue="9">0.404</scalar>
@@ -1892,7 +1892,7 @@
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">80</scalar>
     <label dictRef="bo:symbol" value="Hg" />
     <label dictRef="bo:name" xml:lang="en" value="Mercury" />
-    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass" errorValue="2">200.59</scalar>
+    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass" errorValue="3">200.592</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">201.970643</scalar>
     <scalar dataType="xsd:float" dictRef="bo:ionization" units="units:ev">10.4375</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronAffinity" units="units:ev">0</scalar>
@@ -1915,7 +1915,7 @@
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">81</scalar>
     <label dictRef="bo:symbol" value="Tl" />
     <label dictRef="bo:name" xml:lang="en" value="Thallium" />
-    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass" errorValue="2">204.3833</scalar>
+    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">204.38</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">204.9744275</scalar>
     <scalar dataType="xsd:float" dictRef="bo:ionization" units="units:ev">6.1082</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronAffinity" units="units:ev" errorValue="13">0.377</scalar>
@@ -2406,7 +2406,7 @@
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">104</scalar>
     <label dictRef="bo:symbol" value="Rf" />
     <label dictRef="bo:name" xml:lang="en" value="Rutherfordium" />
-    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">265</scalar>
+    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">267</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">261.10877</scalar>
     <scalar dataType="xsd:float" dictRef="bo:ionization" units="units:ev">6.0</scalar>
     <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Named after the scientist Ernest Rutherford</scalar>
@@ -2424,7 +2424,7 @@
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">105</scalar>
     <label dictRef="bo:symbol" value="Db" />
     <label dictRef="bo:name" xml:lang="en" value="Dubnium" />
-    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">268</scalar>
+    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">270</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">262.11408</scalar>
     <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Named after the science-town Dubna in Russia</scalar>
     <scalar dataType="xsd:float" dictRef="bo:radiusVDW" units="units:ang">2</scalar>
@@ -2458,7 +2458,7 @@
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">107</scalar>
     <label dictRef="bo:symbol" value="Bh" />
     <label dictRef="bo:name" xml:lang="en" value="Bohrium" />
-    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">272</scalar>
+    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">270</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">264.1246</scalar>
     <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Named after the scientist Niels Bohr.</scalar>
     <scalar dataType="xsd:float" dictRef="bo:radiusVDW" units="units:ang">2</scalar>
@@ -2475,7 +2475,7 @@
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">108</scalar>
     <label dictRef="bo:symbol" value="Hs" />
     <label dictRef="bo:name" xml:lang="en" value="Hassium" />
-    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">270</scalar>
+    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">277</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">265.13009</scalar>
     <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Latin 'hassia' for the German county Hessen. In Hessen a lot elements have been discovered.</scalar>
     <scalar dataType="xsd:float" dictRef="bo:radiusVDW" units="units:ang">2</scalar>
@@ -2525,7 +2525,7 @@
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">111</scalar>
     <label dictRef="bo:symbol" value="Rg" />
     <label dictRef="bo:name" xml:lang="en" value="Roentgenium" />
-    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">280</scalar>
+    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">282</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">272.15362</scalar>
     <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Named after Wilhelm Conrad Röntgen.</scalar>
     <array title="color" dictRef="bo:elementColor" size="3" dataType="xsd:float">0.93 0.00 0.13</array>
@@ -2556,7 +2556,7 @@
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">113</scalar>
     <label dictRef="bo:symbol" value="Uut" />
     <label dictRef="bo:name" xml:lang="en" value="Ununtrium" />
-    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">284</scalar>
+    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">285</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">284.17808</scalar>
     <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Historically known as eka-thallium. Ununtrium is a temporary IUPAC systematic element name.</scalar>
     <array title="color" dictRef="bo:elementColor" size="3" dataType="xsd:float">0.95 0.00 0.11</array>
@@ -2586,7 +2586,7 @@
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">115</scalar>
     <label dictRef="bo:symbol" value="Uup" />
     <label dictRef="bo:name" xml:lang="en" value="Ununpentium" />
-    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">288</scalar>
+    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">289</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">288.19249</scalar>
     <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Historically known as eka-bismuth. Ununpentium is a temporary IUPAC systematic element name.</scalar>
     <array title="color" dictRef="bo:elementColor" size="3" dataType="xsd:float">0.97 0.00 0.09</array>
@@ -2616,6 +2616,7 @@
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">117</scalar>
     <label dictRef="bo:symbol" value="Uus" />
     <label dictRef="bo:name" xml:lang="en" value="Ununseptium" />
+    <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">294</scalar>
     <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Temporary symbol and name. Can also be referred to as eka-astatine.</scalar>
     <array title="color" dictRef="bo:elementColor" size="3" dataType="xsd:float">0.99 0.00 0.07</array>
     <scalar dataType="xsd:string" dictRef="bo:periodTableBlock">p</scalar>
