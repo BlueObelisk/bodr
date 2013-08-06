@@ -1,5 +1,9 @@
+2013-08-06 Daniel Leidert <daniel.leidert@wgdd.de>
+	* elements/elements.xml: Changed atom IDs of Lv and Fl and their
+	  name histories.
+
 2013-08-02 Egon Willighagen  <egonw@users.sf.net>
-        * isotopes/isotopes.*: Added the half-lives of 209Th and 238Th (fixes #9)
+	* isotopes/isotopes.*: Added the half-lives of 209Th and 238Th (fixes #9)
 	* INSTALL: typo fix 'applcations'
 	* elements/elements.xml: Fixed the groups of Ds and Mt
 	* elements/elements.xml|symbols.bibxml: Lv and Fl got official names
