@@ -1,4 +1,4 @@
-AC_INIT([bodr],[9],[http://www.blueobelisk.org/])
+AC_INIT([bodr],[10],[http://www.blueobelisk.org/])
 AM_INIT_AUTOMAKE([-Wall])
 
 AC_PROG_INSTALL

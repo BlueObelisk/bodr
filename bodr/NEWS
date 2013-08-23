@@ -1,3 +1,20 @@
+Release version 10 2013-08-23
+
+        * elements/elements.xml: Changed atom IDs of Lv and Fl and their
+          name histories. Fixed all atomic masses accordingly to the latest
+          publication of the IUPAC.
+        * elements/mass.bibxml: Added latest atomic table publication.
+        * tests/AtWt.xsl: Fixed handling of non-breaking spaces and the
+          latest IUPAC website.
+        * isotopes/isotopes.*: Added the half-lives of 209Th and 238Th (fixes #9)
+        * elements/elements.xml: Fixed the groups of Ds and Mt
+        * elements/elements.xml|symbols.bibxml: Lv and Fl got official names
+        * README, COPYING: in agreement with the following email, changed the license to CCZero
+        * elements/elements.xml: Fixed description for Copernicium.
+        * crystal/space-groups.xml: fixed Hall name for group 205.
+        * elements/elements.xml: Fixed atomic weight for Rutherfordium
+          accordingly to IUPAC AtWt table.
+
 Release version 9 2010-04-25
 
 	* Atomic weights have been updated to correspond with the IUPAC table (KDE#192551).
