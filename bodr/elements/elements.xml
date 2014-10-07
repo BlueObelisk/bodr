@@ -79,7 +79,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1895</scalar>
     <array dataType="xsd:string" delimiter=";" size="2" dictRef="bo:discoverers">P. J. Janssen;J. N. Lockyer</array>
     <scalar dataType="xsd:int" dictRef="bo:period">1</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">8</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">18</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">1s2</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Noblegas</scalar>
   </atom>
@@ -151,7 +151,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1808</scalar>
     <array dataType="xsd:string" delimiter=";" size="2" dictRef="bo:discoverers">Louis Joseph Gay-Lussac;Louis Jacques Thenard</array>
     <scalar dataType="xsd:int" dictRef="bo:period">2</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">3</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">13</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">He 2s2 2p1</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Metalloids</scalar>
   </atom>
@@ -174,7 +174,7 @@
     <array dataType="xsd:string" dictRef="bo:discoveryCountry">ancient</array>
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">0</scalar>
     <scalar dataType="xsd:int" dictRef="bo:period">2</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">4</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">14</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">He 2s2 2p2</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Non-Metal</scalar>
   </atom>
@@ -198,7 +198,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1772</scalar>
     <array dataType="xsd:string" dictRef="bo:discoverers">D. Rutherford</array>
     <scalar dataType="xsd:int" dictRef="bo:period">2</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">5</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">15</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">He 2s2 2p3</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Non-Metal</scalar>
   </atom>
@@ -222,7 +222,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1774</scalar>
     <array dataType="xsd:string" dictRef="bo:discoverers">J. Priestley</array>
     <scalar dataType="xsd:int" dictRef="bo:period">2</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">6</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">16</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">He 2s2 2p4</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Non-Metal</scalar>
   </atom>
@@ -246,7 +246,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1886</scalar>
     <array dataType="xsd:string" dictRef="bo:discoverers">H. F. Moissan</array>
     <scalar dataType="xsd:int" dictRef="bo:period">2</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">7</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">17</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">He 2s2 2p5</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Halogen</scalar>
   </atom>
@@ -269,7 +269,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1898</scalar>
     <array dataType="xsd:string" delimiter=";" size="2" dictRef="bo:discoverers">W. Ramsay;M.W. Travers</array>
     <scalar dataType="xsd:int" dictRef="bo:period">2</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">8</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">18</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">He 2s2 2p6</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Noblegas</scalar>
   </atom>
@@ -341,7 +341,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1825</scalar>
     <array dataType="xsd:string" dictRef="bo:discoverers">H. Ch. Oersted</array>
     <scalar dataType="xsd:int" dictRef="bo:period">3</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">3</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">13</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Ne 3s2 3p1</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Other_Metal</scalar>
   </atom>
@@ -365,7 +365,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1823</scalar>
     <array dataType="xsd:string" dictRef="bo:discoverers">J. J. Berzelius</array>
     <scalar dataType="xsd:int" dictRef="bo:period">3</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">4</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">14</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Ne 3s2 3p2</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Metalloids</scalar>
   </atom>
@@ -389,7 +389,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1669</scalar>
     <array dataType="xsd:string" dictRef="bo:discoverers">H. Brandt</array>
     <scalar dataType="xsd:int" dictRef="bo:period">3</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">5</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">15</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Ne 3s2 3p3</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Non-Metal</scalar>
   </atom>
@@ -412,7 +412,7 @@
     <array dataType="xsd:string" dictRef="bo:discoveryCountry">ancient</array>
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">0</scalar>
     <scalar dataType="xsd:int" dictRef="bo:period">3</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">6</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">16</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Ne 3s2 3p4</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Non-Metal</scalar>
   </atom>
@@ -436,7 +436,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1774</scalar>
     <array dataType="xsd:string" dictRef="bo:discoverers">C. W. Scheele</array>
     <scalar dataType="xsd:int" dictRef="bo:period">3</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">7</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">17</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Ne 3s2 3p5</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Halogen</scalar>
   </atom>
@@ -459,7 +459,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1894</scalar>
     <array dataType="xsd:string" delimiter=";" size="2" dictRef="bo:discoverers">W. Ramsay;J. Rayleigh</array>
     <scalar dataType="xsd:int" dictRef="bo:period">3</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">8</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">18</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Ne 3s2 3p6</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Noblegas</scalar>
   </atom>
@@ -674,7 +674,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1737</scalar>
     <array dataType="xsd:string" dictRef="bo:discoverers">G. Brandt</array>
     <scalar dataType="xsd:int" dictRef="bo:period">4</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">8</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">9</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Ar 3d7 4s2</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Transition</scalar>
   </atom>
@@ -698,7 +698,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1751</scalar>
     <array dataType="xsd:string" dictRef="bo:discoverers">A. F. Cronstedt</array>
     <scalar dataType="xsd:int" dictRef="bo:period">4</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">8</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">10</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Ar 3d8 4s2</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Transition</scalar>
   </atom>
@@ -721,7 +721,7 @@
     <array dataType="xsd:string" dictRef="bo:discoveryCountry">ancient</array>
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">0</scalar>
     <scalar dataType="xsd:int" dictRef="bo:period">4</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">1</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">11</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Ar 3d10 4s1</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Transition</scalar>
   </atom>
@@ -745,7 +745,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1746</scalar>
     <array dataType="xsd:string" dictRef="bo:discoverers">Andreas Marggraf</array>
     <scalar dataType="xsd:int" dictRef="bo:period">4</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">2</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">12</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Ar 3d10 4s2</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Transition</scalar>
   </atom>
@@ -769,7 +769,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1875</scalar>
     <array dataType="xsd:string" dictRef="bo:discoverers">P. E. Lecoq de Boisbaudran</array>
     <scalar dataType="xsd:int" dictRef="bo:period">4</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">3</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">13</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Ar 3d10 4s2 4p1</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Other_Metal</scalar>
   </atom>
@@ -793,7 +793,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1886</scalar>
     <array dataType="xsd:string" dictRef="bo:discoverers">C. A. Winkler</array>
     <scalar dataType="xsd:int" dictRef="bo:period">4</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">4</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">14</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Ar 3d10 4s2 4p2</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Metalloids</scalar>
   </atom>
@@ -816,7 +816,7 @@
     <array dataType="xsd:string" dictRef="bo:discoveryCountry">ancient</array>
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">0</scalar>
     <scalar dataType="xsd:int" dictRef="bo:period">4</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">5</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">15</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Ar 3d10 4s2 4p3</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Metalloids</scalar>
   </atom>
@@ -840,7 +840,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1817</scalar>
     <array dataType="xsd:string" dictRef="bo:discoverers">J. J. Berzelius</array>
     <scalar dataType="xsd:int" dictRef="bo:period">4</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">6</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">16</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Ar 3d10 4s2 4p4</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Non-Metal</scalar>
   </atom>
@@ -864,7 +864,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1826</scalar>
     <array dataType="xsd:string" dictRef="bo:discoverers">A. J. Balard</array>
     <scalar dataType="xsd:int" dictRef="bo:period">4</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">7</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">17</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Ar 3d10 4s2 4p5</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Halogen</scalar>
   </atom>
@@ -888,7 +888,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1898</scalar>
     <array dataType="xsd:string" delimiter=";" size="2" dictRef="bo:discoverers">W. Ramsay;M. W. Travers</array>
     <scalar dataType="xsd:int" dictRef="bo:period">4</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">8</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">18</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Ar 3d10 4s2 4p6</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Noblegas</scalar>
   </atom>
@@ -1104,7 +1104,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1803</scalar>
     <array dataType="xsd:string" dictRef="bo:discoverers">W. Wollaston</array>
     <scalar dataType="xsd:int" dictRef="bo:period">5</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">8</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">9</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Kr 4d8 5s1</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Transition</scalar>
   </atom>
@@ -1127,7 +1127,7 @@
     <array dataType="xsd:string" dictRef="bo:discoveryCountry">uk</array>
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1803</scalar>
     <scalar dataType="xsd:int" dictRef="bo:period">5</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">8</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">10</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Kr 4d10</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Transition</scalar>
   </atom>
@@ -1150,7 +1150,7 @@
     <array dataType="xsd:string" dictRef="bo:discoveryCountry">ancient</array>
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">0</scalar>
     <scalar dataType="xsd:int" dictRef="bo:period">5</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">1</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">11</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Kr 4d10 5s1</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Transition</scalar>
   </atom>
@@ -1174,7 +1174,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1817</scalar>
     <array dataType="xsd:string" dictRef="bo:discoverers">F. Stromeyer</array>
     <scalar dataType="xsd:int" dictRef="bo:period">5</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">2</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">12</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Kr 4d10 5s2</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Transition</scalar>
   </atom>
@@ -1198,7 +1198,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1863</scalar>
     <array dataType="xsd:string" delimiter=";" size="2" dictRef="bo:discoverers">F. Reich;H.T. Richter</array>
     <scalar dataType="xsd:int" dictRef="bo:period">5</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">3</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">13</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Kr 4d10 5s2 5p1</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Other_Metal</scalar>
   </atom>
@@ -1221,7 +1221,7 @@
     <array dataType="xsd:string" dictRef="bo:discoveryCountry">ancient</array>
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">0</scalar>
     <scalar dataType="xsd:int" dictRef="bo:period">5</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">4</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">14</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Kr 4d10 5s2 5p2</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Other_Metal</scalar>
   </atom>
@@ -1244,7 +1244,7 @@
     <array dataType="xsd:string" dictRef="bo:discoveryCountry">ancient</array>
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">0</scalar>
     <scalar dataType="xsd:int" dictRef="bo:period">5</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">5</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">15</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Kr 4d10 5s2 5p3</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Metalloids</scalar>
   </atom>
@@ -1268,7 +1268,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1782</scalar>
     <array dataType="xsd:string" dictRef="bo:discoverers">Franz Joseph Muller von Reichstein</array>
     <scalar dataType="xsd:int" dictRef="bo:period">5</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">6</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">16</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Kr 4d10 5s2 5p4</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Metalloids</scalar>
   </atom>
@@ -1292,7 +1292,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1811</scalar>
     <array dataType="xsd:string" dictRef="bo:discoverers">Bernard Courtois</array>
     <scalar dataType="xsd:int" dictRef="bo:period">5</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">7</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">17</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Kr 4d10 5s2 5p5</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Halogen</scalar>
   </atom>
@@ -1316,7 +1316,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1898</scalar>
     <array dataType="xsd:string" delimiter=";" size="2" dictRef="bo:discoverers">W. Ramsay;M. W. Travers</array>
     <scalar dataType="xsd:int" dictRef="bo:period">5</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">8</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">18</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Kr 4d10 5s2 5p6</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Noblegas</scalar>
   </atom>
@@ -1837,7 +1837,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1804</scalar>
     <array dataType="xsd:string" dictRef="bo:discoverers">S. Tennant</array>
     <scalar dataType="xsd:int" dictRef="bo:period">6</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">8</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">9</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Xe 4f14 5d7 6s2</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Transition</scalar>
   </atom>
@@ -1861,7 +1861,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1735</scalar>
     <array dataType="xsd:string" dictRef="bo:discoverers">A. de Ulloa</array>
     <scalar dataType="xsd:int" dictRef="bo:period">6</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">8</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">10</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Xe 4f14 5d9 6s1</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Transition</scalar>
   </atom>
@@ -1884,7 +1884,7 @@
     <array dataType="xsd:string" dictRef="bo:discoveryCountry">ancient</array>
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">0</scalar>
     <scalar dataType="xsd:int" dictRef="bo:period">6</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">1</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">11</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Xe 4f14 5d10 6s1</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Transition</scalar>
   </atom>
@@ -1907,7 +1907,7 @@
     <array dataType="xsd:string" dictRef="bo:discoveryCountry">ancient</array>
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">0</scalar>
     <scalar dataType="xsd:int" dictRef="bo:period">6</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">2</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">12</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Xe 4f14 5d10 6s2</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Transition</scalar>
   </atom>
@@ -1931,7 +1931,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1861</scalar>
     <array dataType="xsd:string" dictRef="bo:discoverers">W. Crookes</array>
     <scalar dataType="xsd:int" dictRef="bo:period">6</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">3</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">13</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Xe 4f14 5d10 6s2 6p1</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Other_Metal</scalar>
   </atom>
@@ -1954,7 +1954,7 @@
     <array dataType="xsd:string" dictRef="bo:discoveryCountry">ancient</array>
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">0</scalar>
     <scalar dataType="xsd:int" dictRef="bo:period">6</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">4</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">14</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Xe 4f14 5d10 6s2 6p2</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Other_Metal</scalar>
   </atom>
@@ -1977,7 +1977,7 @@
     <array dataType="xsd:string" dictRef="bo:discoveryCountry">ancient</array>
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">0</scalar>
     <scalar dataType="xsd:int" dictRef="bo:period">6</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">5</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">15</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Xe 4f14 5d10 6s2 6p3</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Other_Metal</scalar>
   </atom>
@@ -1999,7 +1999,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1898</scalar>
     <array dataType="xsd:string" delimiter=";" size="2" dictRef="bo:discoverers">M. Sklodowska-Curie;P. Curie</array>
     <scalar dataType="xsd:int" dictRef="bo:period">6</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">6</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">16</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Xe 4f14 5d10 6s2 6p4</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Metalloids</scalar>
   </atom>
@@ -2022,7 +2022,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1940</scalar>
     <array dataType="xsd:string" delimiter=";" size="3" dictRef="bo:discoverers">D. R. Corson;K. R. McKenzie;E. Segre</array>
     <scalar dataType="xsd:int" dictRef="bo:period">6</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">7</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">17</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Xe 4f14 5d10 6s2 6p5</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Halogen</scalar>
   </atom>
@@ -2045,7 +2045,7 @@
     <scalar dataType="xsd:date" dictRef="bo:discoveryDate">1898</scalar>
     <array dataType="xsd:string" dictRef="bo:discoverers">E. Dorn</array>
     <scalar dataType="xsd:int" dictRef="bo:period">6</scalar>
-    <scalar dataType="xsd:int" dictRef="bo:group">8</scalar>
+    <scalar dataType="xsd:int" dictRef="bo:group">18</scalar>
     <scalar dataType="xsd:string" dictRef="bo:electronicConfiguration">Xe 4f14 5d10 6s2 6p6</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Noblegas</scalar>
   </atom>
