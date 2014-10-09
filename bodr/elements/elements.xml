@@ -2646,7 +2646,7 @@
     <scalar dataType="xsd:int" dictRef="bo:group">15</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Other_Metal</scalar>
   </atom>
-  <atom id="Fl">
+  <atom id="Lv">
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">116</scalar>
     <label dictRef="bo:symbol" value="Lv" />
     <label dictRef="bo:name" xml:lang="en" value="Livermorium" />
