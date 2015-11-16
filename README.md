@@ -1,4 +1,4 @@
-bodr
+BODR
 ====
 
 Blue Obelisk Data Repository - your one stop place of element and isotope data.
