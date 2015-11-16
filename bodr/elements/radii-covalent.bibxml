@@ -1,15 +1,25 @@
 <bx:entry>
+  <bx:article>
+    <bx:author>P. Pyykko</bx:author>
+    <bx:author>M. Atsumi</bx:author>
+    <bx:journal>Chem. Eur. J.</bx:journal>
+    <bx:year>2009</bx:year>
+    <bx:volume>15</bx:volume>
+    <bx:pages>186</bx:pages>
+  </bx:article>
+</bx:entry>
+<bx:entry>
   <bx:misc>
     <bx:url>http://www.webelements.com/</bx:url>
   </bx:misc>
 </bx:entry>
-<bx:entry>
-  <bx:article>
-    <bx:author>A. Bondi</bx:author>
-    <bx:journal>J. Phys. Chem.</bx:journal>
-    <bx:year>1964</bx:year>
-    <bx:volume>68</bx:volume>
-    <bx:pages>441</bx:pages>
+ <bx:entry>
+   <bx:article>
+     <bx:author>A. Bondi</bx:author>
+     <bx:journal>J. Phys. Chem.</bx:journal>
+     <bx:year>1964</bx:year>
+     <bx:volume>68</bx:volume>
+     <bx:pages>441</bx:pages>
   </bx:article>
 </bx:entry>
 <bx:entry>
