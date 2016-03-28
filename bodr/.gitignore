@@ -8,3 +8,7 @@ configure
 install-sh
 missing
 aclocal.m4
+bodr.pc
+config.log
+config.status
+
