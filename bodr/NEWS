@@ -1,3 +1,10 @@
+Release version 11 SNAPSHOT
+
+        * elements/symbols.bibxml: added two references for recently confirmed elements
+        * elements/elements.xml: fixed the element symbol for Lv
+        * elements/elements.xml: updated group information
+        * elements/elements.xml: update covalent radii per Pyykko 2009
+
 Release version 10 2013-08-23
 
         * elements/elements.xml: Changed atom IDs of Lv and Fl and their
