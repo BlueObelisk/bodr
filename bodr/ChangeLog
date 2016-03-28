@@ -1,3 +1,13 @@
+2014-10-09 vaitkus <antanas.vaitkus90@gmail.com>
+	* elements/elements.xml: fixed the element symbol for Lv
+	* elements/elements.xml: added missing group information
+
+2014-10-07 vaitkus <antanas.vaitkus90@gmail.com>
+	* elements/elements.xml: updated group information
+
+2014-02-20 Bert de Jong <wadejong@lbl.gov>
+	* elements/elements.xml|radii-covalent.xml: update covalent radii per Pyykko 2009
+
 2013-08-06 Daniel Leidert <daniel.leidert@wgdd.de>
 	* elements/elements.xml: Changed atom IDs of Lv and Fl and their
 	  name histories. Fixed all atomic masses accordingly to the latest
