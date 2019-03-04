@@ -1136,10 +1136,17 @@
 <isotopeList id="Na">
 	<isotope id="Na18" number="18" elementType="Na">
 		<scalar dictRef="bo:exactMass" errorValue="50E-6">18.02597</scalar>
+		<scalar dictRef="bo:spin">1-</scalar>
+		<scalar dictRef="bo:halfLife" units="siUnits:s">1.3e-21</scalar>
+                <scalar dictRef="bo:protonDecay"></scalar>
+                <scalar dictRef="bo:protonDecayLikeliness" units="bo:percentage">100.0</scalar>
 		<scalar dictRef="bo:atomicNumber">11</scalar>
 	</isotope>
 	<isotope id="Na19" number="19" elementType="Na">
 		<scalar dictRef="bo:exactMass" errorValue="13E-6">19.013877</scalar>
+		<scalar dictRef="bo:spin">5/2+</scalar>
+		<scalar dictRef="bo:protonDecay"></scalar>
+		<scalar dictRef="bo:protonDecayLikeliness" units="bo:percentage">100.0</scalar>
 		<scalar dictRef="bo:atomicNumber">11</scalar>
 	</isotope>
 	<isotope id="Na20" number="20" elementType="Na">
