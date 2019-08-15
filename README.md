@@ -6,7 +6,8 @@ Blue Obelisk Data Repository - your one stop place of element and isotope data.
 Download
 ========
 
-* Debian package: https://packages.debian.org/search?keywords=bodr
+* Ubuntu package: https://packages.ubuntu.com/bodr
+* Debian package: https://packages.debian.org/bodr
 
 How to Cite
 ===========
@@ -17,4 +18,4 @@ If you use this library, please cite:
     Wegner, J., Willighagen, E. L., May 2006. The Blue Obelisk - interoperability in
     chemical informatics. J. Chem. Inf. Model. 46 (3), 991-998.
 
-See http://dx.doi.org/10.1021/ci050400b
+See https://doi.org/10.1021/ci050400b
