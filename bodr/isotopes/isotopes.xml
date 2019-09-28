@@ -325,7 +325,7 @@
 	</isotope>
 	<isotope id="Be15" number="15" elementType="Be">
 		<scalar dictRef="bo:exactMass" errorValue="540E-6">15.05346</scalar>
-		<scalar dictRef="bo:halfLife" units="siUnits:s">7-86e-22</scalar>
+		<scalar dictRef="bo:halfLife" units="siUnits:s">7.86e-22</scalar>
 		<scalar dictRef="bo:neutronDecay"></scalar>
 		<scalar dictRef="bo:neutronDecayLikeliness" units="bo:percentage">100.0</scalar>
 		<scalar dictRef="bo:atomicNumber">4</scalar>
