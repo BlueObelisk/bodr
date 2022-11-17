@@ -403,7 +403,7 @@
     <scalar dataType="xsd:float" dictRef="bo:ionization" units="units:ev">10.3600</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronAffinity" units="units:ev" errorValue="10">2.0771029</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronegativityPauling" units="boUnits:paulingScaleUnit">2.58</scalar>
-    <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">In sanskrit 'sweb' means 'to sleep'</scalar>
+    <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">In Sanskrit 'sweb' means 'to sleep'</scalar>
     <scalar dataType="xsd:float" dictRef="bo:radiusCovalent" units="units:ang">1.03</scalar>
     <scalar dataType="xsd:float" dictRef="bo:radiusVDW" units="units:ang">1.8</scalar>
     <array title="color" dictRef="bo:elementColor" size="3" dataType="xsd:float">1.00 1.00 0.19</array>
@@ -2164,7 +2164,7 @@
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">231.035884</scalar>
     <scalar dataType="xsd:float" dictRef="bo:ionization" units="units:ev">5.89</scalar>
     <scalar dataType="xsd:float" dictRef="bo:electronegativityPauling" units="boUnits:paulingScaleUnit">1.5</scalar>
-    <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Greek 'protos' for 'ancester'. Protactinium is before Actinium in the periodic table.</scalar>
+    <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Greek 'protos' for 'ancestor'. Protactinium is before Actinium in the periodic table.</scalar>
     <scalar dataType="xsd:float" dictRef="bo:radiusCovalent" units="units:ang">1.69</scalar>
     <scalar dataType="xsd:float" dictRef="bo:radiusVDW" units="units:ang">2</scalar>
     <array title="color" dictRef="bo:elementColor" size="3" dataType="xsd:float">0.00 0.63 1.00</array>
