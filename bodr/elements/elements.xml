@@ -2595,13 +2595,13 @@
     <scalar dataType="xsd:int" dictRef="bo:group">12</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Transition</scalar>
   </atom>
-  <atom id="Uut">
+  <atom id="Nh">
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">113</scalar>
-    <label dictRef="bo:symbol" value="Uut" />
-    <label dictRef="bo:name" xml:lang="en" value="Ununtrium" />
+    <label dictRef="bo:symbol" value="Nh" />
+    <label dictRef="bo:name" xml:lang="en" value="Nihonium" />
     <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">285</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">284.17808</scalar>
-    <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Historically known as eka-thallium. Ununtrium is a temporary IUPAC systematic element name.</scalar>
+    <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Historically known as eka-thallium. Named after "Nihon", a common Japanese name for Japan. The temporary IUPAC systematic element name was Ununtrium.</scalar>
     <scalar dataType="xsd:float" dictRef="bo:radiusCovalent" units="units:ang">1.36</scalar>
     <array title="color" dictRef="bo:elementColor" size="3" dataType="xsd:float">0.95 0.00 0.11</array>
     <scalar dataType="xsd:string" dictRef="bo:periodTableBlock">p</scalar>
@@ -2629,13 +2629,13 @@
     <scalar dataType="xsd:int" dictRef="bo:group">14</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Other_Metal</scalar>
   </atom>
-  <atom id="Uup">
+  <atom id="Mc">
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">115</scalar>
-    <label dictRef="bo:symbol" value="Uup" />
-    <label dictRef="bo:name" xml:lang="en" value="Ununpentium" />
+    <label dictRef="bo:symbol" value="Mc" />
+    <label dictRef="bo:name" xml:lang="en" value="Moscovium" />
     <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">289</scalar>
     <scalar dataType="xsd:float" dictRef="bo:exactMass" units="units:atmass">288.19249</scalar>
-    <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Historically known as eka-bismuth. Ununpentium is a temporary IUPAC systematic element name.</scalar>
+    <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Historically known as eka-bismuth. Named after Moscow Oblast where Dubna is located. The temporary IUPAC systematic element name was Ununpentium.</scalar>
     <scalar dataType="xsd:float" dictRef="bo:radiusCovalent" units="units:ang">1.62</scalar>
     <array title="color" dictRef="bo:elementColor" size="3" dataType="xsd:float">0.97 0.00 0.09</array>
     <scalar dataType="xsd:string" dictRef="bo:periodTableBlock">p</scalar>
@@ -2663,12 +2663,12 @@
     <scalar dataType="xsd:int" dictRef="bo:group">16</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Other_Metal</scalar>
   </atom>
-  <atom id="Uus">
+  <atom id="Ts">
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">117</scalar>
-    <label dictRef="bo:symbol" value="Uus" />
-    <label dictRef="bo:name" xml:lang="en" value="Ununseptium" />
+    <label dictRef="bo:symbol" value="Ts" />
+    <label dictRef="bo:name" xml:lang="en" value="Tennessine" />
     <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">294</scalar>
-    <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Temporary symbol and name. Can also be referred to as eka-astatine.</scalar>
+    <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Historically known as as eka-astatine. Named after the region of Tennessee. The temporary IUPAC systematic element name was Ununseptium.</scalar>
     <scalar dataType="xsd:float" dictRef="bo:radiusCovalent" units="units:ang">1.65</scalar>
     <array title="color" dictRef="bo:elementColor" size="3" dataType="xsd:float">0.99 0.00 0.07</array>
     <scalar dataType="xsd:string" dictRef="bo:periodTableBlock">p</scalar>
@@ -2677,12 +2677,12 @@
     <scalar dataType="xsd:int" dictRef="bo:group">17</scalar>
     <scalar dataType="xsd:string" dictRef="bo:family">Halogen</scalar>
   </atom>
-  <atom id="Uuo">
+  <atom id="Og">
     <scalar dataType="xsd:Integer" dictRef="bo:atomicNumber">118</scalar>
-    <label dictRef="bo:symbol" value="Uuo" />
-    <label dictRef="bo:name" xml:lang="en" value="Ununoctium" />
+    <label dictRef="bo:symbol" value="Og" />
+    <label dictRef="bo:name" xml:lang="en" value="Oganesson" />
     <scalar dataType="xsd:float" dictRef="bo:mass" units="units:atmass">294</scalar>
-    <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Historically known as eka-radon, eka-emanation before 1960. Ununoctium is a temporary IUPAC systematic element name.</scalar>
+    <scalar dataType="xsd:string" dictRef="bo:nameOrigin" xml:lang="en">Historically known as eka-radon, eka-emanation before 1960. Named after the Russian nuclear physicist Yuri Oganessian. The temporary IUPAC systematic element name was Ununoctium.</scalar>
     <scalar dataType="xsd:float" dictRef="bo:radiusCovalent" units="units:ang">1.57</scalar>
     <array title="color" dictRef="bo:elementColor" size="3" dataType="xsd:float">1.00 0.00 0.06</array>
     <scalar dataType="xsd:string" dictRef="bo:periodTableBlock">p</scalar>

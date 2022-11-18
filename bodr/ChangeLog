@@ -1,3 +1,7 @@
+2022-11-18 Antanas Vaitkus <antanas.vaitkus90@gmail.com>
+	* elements/elements.xml: changed the ids, names, symbols and name origins of
+	  Nihonium, Moscovium, Tennessine and Oganesson.
+
 2016-03-28 Egon Willighagen <egon.willighagen@gmail.com>
 	* elements/symbols.bibxml: added two references for recently confirmed elements
 
